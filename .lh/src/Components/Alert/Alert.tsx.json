@@ -1,0 +1,174 @@
+{
+    "sourceFile": "src/Components/Alert/Alert.tsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 39,
+            "patches": [
+                {
+                    "date": 1733478438102,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1733478459019,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,15 @@\n import React from 'react'\r\n \r\n const Alert = () => {\r\n   return (\r\n-    <div>Alert</div>\r\n+    <Alert status={'error'} \r\n+                            title = {'Invalid fields'}>\r\n+              Please check your phone number\r\n+             <CloseButton position = {'absolute'} \r\n+                          right={0} top={0}\r\n+                          onClick={() => setAlert(false)}/>            \r\n+                      </Alert>\r\n   )\r\n }\r\n \r\n export default Alert\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1733478472856,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,6 @@\n-import React from 'react'\r\n+import { Alert } from '../ui/alert'\r\n+import { CloseButton } from '../ui/close-button'\r\n \r\n const Alert = () => {\r\n   return (\r\n     <Alert status={'error'} \r\n"
+                },
+                {
+                    "date": 1733478491464,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n               Please check your phone number\r\n              <CloseButton position = {'absolute'} \r\n                           right={0} top={0}\r\n                           onClick={() => setAlert(false)}/>            \r\n-                      </Alert>\r\n+    </Alert>\r\n   )\r\n }\r\n \r\n export default Alert\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1733478521701,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import { CloseButton } from '../ui/close-button'\r\n \r\n const Alert = () => {\r\n   return (\r\n-    <Alert status={'error'} \r\n+    <Aler status={'error'} \r\n                             title = {'Invalid fields'}>\r\n               Please check your phone number\r\n              <CloseButton position = {'absolute'} \r\n                           right={0} top={0}\r\n"
+                },
+                {
+                    "date": 1733478527324,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,10 @@\n-import { Alert } from '../ui/alert'\r\n+\r\n import { CloseButton } from '../ui/close-button'\r\n \r\n const Alert = () => {\r\n   return (\r\n-    <Aler status={'error'} \r\n+    <Alert status={'error'} \r\n                             title = {'Invalid fields'}>\r\n               Please check your phone number\r\n              <CloseButton position = {'absolute'} \r\n                           right={0} top={0}\r\n"
+                },
+                {
+                    "date": 1733478534248,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,9 @@\n-\r\n import { CloseButton } from '../ui/close-button'\r\n \r\n const Alert = () => {\r\n   return (\r\n-    <Alert status={'error'} \r\n+    <Aler status={'error'} \r\n                             title = {'Invalid fields'}>\r\n               Please check your phone number\r\n              <CloseButton position = {'absolute'} \r\n                           right={0} top={0}\r\n"
+                },
+                {
+                    "date": 1733478544123,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import { CloseButton } from '../ui/close-button'\r\n \r\n const Alert = () => {\r\n   return (\r\n-    <Aler status={'error'} \r\n+    <Alert status={'error'} \r\n                             title = {'Invalid fields'}>\r\n               Please check your phone number\r\n              <CloseButton position = {'absolute'} \r\n                           right={0} top={0}\r\n"
+                },
+                {
+                    "date": 1733478551882,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \r\n const Alert = () => {\r\n   return (\r\n     <Alert status={'error'} \r\n-                            title = {'Invalid fields'}>\r\n+            title = {'Invalid fields'}>\r\n               Please check your phone number\r\n              <CloseButton position = {'absolute'} \r\n                           right={0} top={0}\r\n                           onClick={() => setAlert(false)}/>            \r\n"
+                },
+                {
+                    "date": 1733478568640,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,11 @@\n+import { Alert } from '../ui/alert'\r\n import { CloseButton } from '../ui/close-button'\r\n \r\n const Alert = () => {\r\n   return (\r\n     <Alert status={'error'} \r\n-            title = {'Invalid fields'}>\r\n+                            title = {'Invalid fields'}>\r\n               Please check your phone number\r\n              <CloseButton position = {'absolute'} \r\n                           right={0} top={0}\r\n                           onClick={() => setAlert(false)}/>            \r\n"
+                },
+                {
+                    "date": 1733478575925,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-import { Alert } from '../ui/alert'\r\n+import Ale\r\n import { CloseButton } from '../ui/close-button'\r\n \r\n const Alert = () => {\r\n   return (\r\n"
+                },
+                {
+                    "date": 1733478584116,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-import Ale\r\n+\r\n import { CloseButton } from '../ui/close-button'\r\n \r\n const Alert = () => {\r\n   return (\r\n"
+                },
+                {
+                    "date": 1733478592064,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,15 +2,16 @@\n import { CloseButton } from '../ui/close-button'\r\n \r\n const Alert = () => {\r\n   return (\r\n-    <Alert status={'error'} \r\n-                            title = {'Invalid fields'}>\r\n-              Please check your phone number\r\n-             <CloseButton position = {'absolute'} \r\n-                          right={0} top={0}\r\n-                          onClick={() => setAlert(false)}/>            \r\n-    </Alert>\r\n+    <Alert\r\n+    // <Alert status={'error'} \r\n+    //                         title = {'Invalid fields'}>\r\n+    //           Please check your phone number\r\n+    //          <CloseButton position = {'absolute'} \r\n+    //                       right={0} top={0}\r\n+    //                       onClick={() => setAlert(false)}/>            \r\n+    // </Alert>\r\n   )\r\n }\r\n \r\n export default Alert\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1733478604958,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,8 @@\n import { CloseButton } from '../ui/close-button'\r\n \r\n const Alert = () => {\r\n   return (\r\n-    <Alert\r\n     // <Alert status={'error'} \r\n     //                         title = {'Invalid fields'}>\r\n     //           Please check your phone number\r\n     //          <CloseButton position = {'absolute'} \r\n"
+                },
+                {
+                    "date": 1733478611895,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-\r\n+import {Alert}\r\n import { CloseButton } from '../ui/close-button'\r\n \r\n const Alert = () => {\r\n   return (\r\n"
+                },
+                {
+                    "date": 1733478620290,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,10 @@\n-import {Alert}\r\n+import { Alert } from '../ui/alert'\r\n import { CloseButton } from '../ui/close-button'\r\n \r\n const Alert = () => {\r\n   return (\r\n+    <Aler\r\n     // <Alert status={'error'} \r\n     //                         title = {'Invalid fields'}>\r\n     //           Please check your phone number\r\n     //          <CloseButton position = {'absolute'} \r\n"
+                },
+                {
+                    "date": 1733478679930,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,12 @@\n import { Alert } from '../ui/alert'\r\n import { CloseButton } from '../ui/close-button'\r\n \r\n-const Alert = () => {\r\n+const CustomAlert = () => {\r\n   return (\r\n-    <Aler\r\n+    <Alert>\r\n+\r\n+    </Alert>\r\n     // <Alert status={'error'} \r\n     //                         title = {'Invalid fields'}>\r\n     //           Please check your phone number\r\n     //          <CloseButton position = {'absolute'} \r\n"
+                },
+                {
+                    "date": 1733478686003,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,5 +15,5 @@\n     // </Alert>\r\n   )\r\n }\r\n \r\n-export default Alert\n\\ No newline at end of file\n+export default CustomAlert\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1733478691796,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,11 +2,8 @@\n import { CloseButton } from '../ui/close-button'\r\n \r\n const CustomAlert = () => {\r\n   return (\r\n-    <Alert>\r\n-\r\n-    </Alert>\r\n     // <Alert status={'error'} \r\n     //                         title = {'Invalid fields'}>\r\n     //           Please check your phone number\r\n     //          <CloseButton position = {'absolute'} \r\n"
+                },
+                {
+                    "date": 1733478699974,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,15 +2,15 @@\n import { CloseButton } from '../ui/close-button'\r\n \r\n const CustomAlert = () => {\r\n   return (\r\n-    // <Alert status={'error'} \r\n-    //                         title = {'Invalid fields'}>\r\n-    //           Please check your phone number\r\n-    //          <CloseButton position = {'absolute'} \r\n-    //                       right={0} top={0}\r\n-    //                       onClick={() => setAlert(false)}/>            \r\n-    // </Alert>\r\n+    <Alert status={'error'} \r\n+           title = {'Invalid fields'}>\r\n+              Please check your phone number\r\n+             <CloseButton position = {'absolute'} \r\n+                          right={0} top={0}\r\n+                          onClick={() => setAlert(false)}/>            \r\n+    </Alert>\r\n   )\r\n }\r\n \r\n export default CustomAlert\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1733478705041,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n import { Alert } from '../ui/alert'\r\n import { CloseButton } from '../ui/close-button'\r\n \r\n-const CustomAlert = () => {\r\n+const CustomAlert = (set) => {\r\n   return (\r\n     <Alert status={'error'} \r\n            title = {'Invalid fields'}>\r\n               Please check your phone number\r\n"
+                },
+                {
+                    "date": 1733478710797,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n import { Alert } from '../ui/alert'\r\n import { CloseButton } from '../ui/close-button'\r\n \r\n-const CustomAlert = (set) => {\r\n+const CustomAlert = (setAlert : ) => {\r\n   return (\r\n     <Alert status={'error'} \r\n            title = {'Invalid fields'}>\r\n               Please check your phone number\r\n"
+                },
+                {
+                    "date": 1733478717888,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n import { Alert } from '../ui/alert'\r\n import { CloseButton } from '../ui/close-button'\r\n \r\n-const CustomAlert = (setAlert : ) => {\r\n+const CustomAlert = (setAlert :) => {\r\n   return (\r\n     <Alert status={'error'} \r\n            title = {'Invalid fields'}>\r\n               Please check your phone number\r\n"
+                },
+                {
+                    "date": 1733478758498,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n import { Alert } from '../ui/alert'\r\n import { CloseButton } from '../ui/close-button'\r\n \r\n-const CustomAlert = (setAlert :) => {\r\n+const CustomAlert = (setAlert : ) => {\r\n   return (\r\n     <Alert status={'error'} \r\n            title = {'Invalid fields'}>\r\n               Please check your phone number\r\n"
+                },
+                {
+                    "date": 1733478764361,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n import { Alert } from '../ui/alert'\r\n import { CloseButton } from '../ui/close-button'\r\n \r\n-const CustomAlert = (setAlert : ) => {\r\n+const CustomAlert = (setAlert : (va)) => {\r\n   return (\r\n     <Alert status={'error'} \r\n            title = {'Invalid fields'}>\r\n               Please check your phone number\r\n"
+                },
+                {
+                    "date": 1733478772177,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n import { Alert } from '../ui/alert'\r\n import { CloseButton } from '../ui/close-button'\r\n \r\n-const CustomAlert = (setAlert : (va)) => {\r\n+const CustomAlert = (setAlert : (value : boolean)) => {\r\n   return (\r\n     <Alert status={'error'} \r\n            title = {'Invalid fields'}>\r\n               Please check your phone number\r\n"
+                },
+                {
+                    "date": 1733478778613,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n import { Alert } from '../ui/alert'\r\n import { CloseButton } from '../ui/close-button'\r\n \r\n-const CustomAlert = (setAlert : (value : boolean)) => {\r\n+const CustomAlert = (setAlert : (value : boolean) = void) => {\r\n   return (\r\n     <Alert status={'error'} \r\n            title = {'Invalid fields'}>\r\n               Please check your phone number\r\n"
+                },
+                {
+                    "date": 1733478788463,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n import { Alert } from '../ui/alert'\r\n import { CloseButton } from '../ui/close-button'\r\n \r\n-const CustomAlert = (setAlert : (value : boolean) = void) => {\r\n+const CustomAlert = (setAlert : (value : boolean) => void) => {\r\n   return (\r\n     <Alert status={'error'} \r\n            title = {'Invalid fields'}>\r\n               Please check your phone number\r\n"
+                },
+                {
+                    "date": 1733478797949,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n import { Alert } from '../ui/alert'\r\n import { CloseButton } from '../ui/close-button'\r\n \r\n-const CustomAlert = (setAlert : (value : boolean) => void) => {\r\n+const CustomAlert = ({setAlert : (value : boolean) => void) => {\r\n   return (\r\n     <Alert status={'error'} \r\n            title = {'Invalid fields'}>\r\n               Please check your phone number\r\n"
+                },
+                {
+                    "date": 1733478824785,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n import { Alert } from '../ui/alert'\r\n import { CloseButton } from '../ui/close-button'\r\n \r\n-const CustomAlert = ({setAlert : (value : boolean) => void) => {\r\n+const CustomAlert = (setAlert : (value : boolean) => void) => {\r\n   return (\r\n     <Alert status={'error'} \r\n            title = {'Invalid fields'}>\r\n               Please check your phone number\r\n"
+                },
+                {
+                    "date": 1733478854852,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n import { Alert } from '../ui/alert'\r\n import { CloseButton } from '../ui/close-button'\r\n \r\n-const CustomAlert = (setAlert : (value : boolean) => void) => {\r\n+const CustomAlert = ({}setAlert : (value : boolean) => void) => {\r\n   return (\r\n     <Alert status={'error'} \r\n            title = {'Invalid fields'}>\r\n               Please check your phone number\r\n"
+                },
+                {
+                    "date": 1733478866126,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,10 @@\n import { Alert } from '../ui/alert'\r\n import { CloseButton } from '../ui/close-button'\r\n \r\n-const CustomAlert = ({}setAlert : (value : boolean) => void) => {\r\n+const CustomAlert = ({\r\n+\r\n+} => {\r\n   return (\r\n     <Alert status={'error'} \r\n            title = {'Invalid fields'}>\r\n               Please check your phone number\r\n"
+                },
+                {
+                    "date": 1733478871939,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import { Alert } from '../ui/alert'\r\n import { CloseButton } from '../ui/close-button'\r\n \r\n const CustomAlert = ({\r\n-\r\n+    setAlert : (value : boolean) => void)\r\n } => {\r\n   return (\r\n     <Alert status={'error'} \r\n            title = {'Invalid fields'}>\r\n"
+                },
+                {
+                    "date": 1733478878274,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import { CloseButton } from '../ui/close-button'\r\n \r\n const CustomAlert = ({\r\n     setAlert : (value : boolean) => void)\r\n-} => {\r\n+   } => {\r\n   return (\r\n     <Alert status={'error'} \r\n            title = {'Invalid fields'}>\r\n               Please check your phone number\r\n"
+                },
+                {
+                    "date": 1733478883660,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,10 @@\n import { Alert } from '../ui/alert'\r\n import { CloseButton } from '../ui/close-button'\r\n \r\n const CustomAlert = ({\r\n-    setAlert : (value : boolean) => void)\r\n-   } => {\r\n+    setAlert : (value : boolean) => void})\r\n+    => {\r\n   return (\r\n     <Alert status={'error'} \r\n            title = {'Invalid fields'}>\r\n               Please check your phone number\r\n"
+                },
+                {
+                    "date": 1733478889359,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import { Alert } from '../ui/alert'\r\n import { CloseButton } from '../ui/close-button'\r\n \r\n const CustomAlert = ({\r\n-    setAlert : (value : boolean) => void})\r\n+    setAlert : (value : boolean) => void)\r\n     => {\r\n   return (\r\n     <Alert status={'error'} \r\n            title = {'Invalid fields'}>\r\n"
+                },
+                {
+                    "date": 1733478898368,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,12 +1,12 @@\n import { Alert } from '../ui/alert'\r\n import { CloseButton } from '../ui/close-button'\r\n \r\n-const CustomAlert = ({\r\n+const CustomAlert = (\r\n     setAlert : (value : boolean) => void)\r\n     => {\r\n-  return (\r\n-    <Alert status={'error'} \r\n+       return (\r\n+         <Alert status={'error'} \r\n            title = {'Invalid fields'}>\r\n               Please check your phone number\r\n              <CloseButton position = {'absolute'} \r\n                           right={0} top={0}\r\n"
+                },
+                {
+                    "date": 1733478906291,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,13 +5,13 @@\n     setAlert : (value : boolean) => void)\r\n     => {\r\n        return (\r\n          <Alert status={'error'} \r\n-           title = {'Invalid fields'}>\r\n-              Please check your phone number\r\n-             <CloseButton position = {'absolute'} \r\n-                          right={0} top={0}\r\n-                          onClick={() => setAlert(false)}/>            \r\n+                title = {'Invalid fields'}>\r\n+                Please check your phone number\r\n+               <CloseButton position = {'absolute'} \r\n+                            right={0} top={0}\r\n+                            onClick={() => setAlert(false)}/>            \r\n     </Alert>\r\n   )\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1733478922523,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,18 +1,19 @@\n import { Alert } from '../ui/alert'\r\n import { CloseButton } from '../ui/close-button'\r\n \r\n const CustomAlert = (\r\n-    setAlert : (value : boolean) => void)\r\n+    setAlert : (value : boolean) => void\r\n+)\r\n     => {\r\n        return (\r\n          <Alert status={'error'} \r\n                 title = {'Invalid fields'}>\r\n                 Please check your phone number\r\n                <CloseButton position = {'absolute'} \r\n                             right={0} top={0}\r\n                             onClick={() => setAlert(false)}/>            \r\n-    </Alert>\r\n+         </Alert>\r\n   )\r\n }\r\n \r\n export default CustomAlert\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1733478928817,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,10 +2,10 @@\n import { CloseButton } from '../ui/close-button'\r\n \r\n const CustomAlert = (\r\n     setAlert : (value : boolean) => void\r\n-)\r\n-    => {\r\n+    )\r\n+     {\r\n        return (\r\n          <Alert status={'error'} \r\n                 title = {'Invalid fields'}>\r\n                 Please check your phone number\r\n"
+                }
+            ],
+            "date": 1733478438102,
+            "name": "Commit-0",
+            "content": "import React from 'react'\r\n\r\nconst Alert = () => {\r\n  return (\r\n    <div>Alert</div>\r\n  )\r\n}\r\n\r\nexport default Alert"
+        }
+    ]
+}

@@ -1,0 +1,8 @@
+#root {
+  max-width: 166px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 5px;
+  text-align: center;
+}

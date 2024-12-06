@@ -1,0 +1,102 @@
+{
+    "sourceFile": "src/App.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 21,
+            "patches": [
+                {
+                    "date": 1732854851393,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1732854874824,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n #root {\n-  max-width: 1660px;\n+  max-width: 18000px;\n   margin: 0 auto;\n   padding: 5px;\n   text-align: center;\n }\n"
+                },
+                {
+                    "date": 1732854884184,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n #root {\n-  max-width: 18000px;\n+  max-width: 100;\n   margin: 0 auto;\n   padding: 5px;\n   text-align: center;\n }\n"
+                },
+                {
+                    "date": 1732854991010,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n #root {\n-  max-width: 100;\n+  max-width: 1905;\n   margin: 0 auto;\n   padding: 5px;\n   text-align: center;\n }\n"
+                },
+                {
+                    "date": 1733116951276,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,7 @@\n #root {\n-  max-width: 1905;\n+  max-width: 1905px;\n+  disp\n   margin: 0 auto;\n   padding: 5px;\n   text-align: center;\n }\n"
+                },
+                {
+                    "date": 1733116956872,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,8 @@\n #root {\n   max-width: 1905px;\n-  disp\n+  display:  \n+  flex;\n   margin: 0 auto;\n   padding: 5px;\n   text-align: center;\n }\n"
+                },
+                {
+                    "date": 1733116964596,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,7 @@\n #root {\n   max-width: 1905px;\n-  display:  \n-  flex;\n+  display: flex;\n   margin: 0 auto;\n   padding: 5px;\n   text-align: center;\n }\n"
+                },
+                {
+                    "date": 1733116971497,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,8 @@\n #root {\n   max-width: 1905px;\n   display: flex;\n+  justify-content: center;\n   margin: 0 auto;\n   padding: 5px;\n   text-align: center;\n }\n"
+                },
+                {
+                    "date": 1733116998618,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n #root {\n-  max-width: 1905px;\n+  max-width: 1px;\n   display: flex;\n   justify-content: center;\n   margin: 0 auto;\n   padding: 5px;\n"
+                },
+                {
+                    "date": 1733117064613,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n #root {\n-  max-width: 1px;\n+  max-width: 1660px;\n   display: flex;\n   justify-content: center;\n-  margin: 0 auto;\n+  margin: 0;\n   padding: 5px;\n   text-align: center;\n }\n"
+                },
+                {
+                    "date": 1733117107617,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,7 +2,7 @@\n   max-width: 1660px;\n   display: flex;\n   justify-content: center;\n   margin: 0;\n-  padding: 5px;\n+  padding: ;\n   text-align: center;\n }\n"
+                },
+                {
+                    "date": 1733117115045,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,7 +2,7 @@\n   max-width: 1660px;\n   display: flex;\n   justify-content: center;\n   margin: 0;\n-  padding: ;\n+  padding: 5px;\n   text-align: center;\n }\n"
+                },
+                {
+                    "date": 1733117200233,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,6 +3,5 @@\n   display: flex;\n   justify-content: center;\n   margin: 0;\n   padding: 5px;\n-  text-align: center;\n }\n"
+                },
+                {
+                    "date": 1733118256859,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n #root {\n-  max-width: 1660px;\n+  \n   display: flex;\n   justify-content: center;\n   margin: 0;\n   padding: 5px;\n"
+                },
+                {
+                    "date": 1733118284309,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n #root {\n-  \n+  max-width: 1660px;\n   display: flex;\n   justify-content: center;\n   margin: 0;\n   padding: 5px;\n"
+                },
+                {
+                    "date": 1733118314446,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n #root {\n-  max-width: 1660px;\n+  max-width: 18900px;\n   display: flex;\n   justify-content: center;\n   margin: 0;\n   padding: 5px;\n"
+                },
+                {
+                    "date": 1733118731457,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n #root {\n-  max-width: 18900px;\n+  max-width: 1920px;\n   display: flex;\n   justify-content: center;\n   margin: 0;\n   padding: 5px;\n"
+                },
+                {
+                    "date": 1733121145299,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,6 @@\n #root {\n-  max-width: 1920px;\n-  display: flex;\n-  justify-content: center;\n+  width: 100%;\n+  max-width: none;\n   margin: 0;\n-  padding: 5px;\n+  padding: 0;\n }\n"
+                },
+                {
+                    "date": 1733121171623,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n #root {\n-  width: 100%;\n+  width: ;\n   max-width: none;\n   margin: 0;\n   padding: 0;\n }\n"
+                },
+                {
+                    "date": 1733121229244,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,7 @@\n-#root {\n-  width: ;\n-  max-width: none;\n+html, body {\n   margin: 0;\n   padding: 0;\n+  width: 100%;\n+  height: 100%;\n+  box-sizing: border-box;\n }\n"
+                },
+                {
+                    "date": 1733123027939,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,6 @@\n-html, body {\n-  margin: 0;\n-  padding: 0;\n-  width: 100%;\n-  height: 100%;\n-  box-sizing: border-box;\n+#root {\n+width: 100%;\n+max-width: none;\n+margin: 0;\n+padding: 0;\n }\n"
+                },
+                {
+                    "date": 1733475614259,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,5 +2,9 @@\n width: 100%;\n max-width: none;\n margin: 0;\n padding: 0;\n+display: flex;\n+flex\n+justify-content: center;\n+align-items: center;\n }\n"
+                }
+            ],
+            "date": 1732854851393,
+            "name": "Commit-0",
+            "content": "#root {\n  max-width: 1660px;\n  margin: 0 auto;\n  padding: 5px;\n  text-align: center;\n}\n"
+        }
+    ]
+}

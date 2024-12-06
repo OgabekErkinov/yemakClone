@@ -1,0 +1,22 @@
+{
+    "sourceFile": "src/Components/Category/CategoryItem.tsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1733311539602,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1733311544728,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n import { Box, Heading, Image, Stack } from '@chakra-ui/react'\r\n-import { CategoryItem } from './Interfaces/CategoryItem'\r\n+import { , CategoryItems } from './Interfaces/CategoryItem'\r\n \r\n const CategoryItem = ({url, text} : CategoryItems) => {\r\n   return (\r\n     <Stack height={'5rem'}\r\n"
+                }
+            ],
+            "date": 1733311539602,
+            "name": "Commit-0",
+            "content": "import { Box, Heading, Image, Stack } from '@chakra-ui/react'\r\nimport { CategoryItem } from './Interfaces/CategoryItem'\r\n\r\nconst CategoryItem = ({url, text} : CategoryItems) => {\r\n  return (\r\n    <Stack height={'5rem'}\r\n           width={'5rem'}\r\n           padding={'10px'}>\r\n        <Image src={url}/>\r\n        <Heading>{text}</Heading>\r\n    </Stack>\r\n  )\r\n}\r\n\r\nexport default CategoryItem\r\n"
+        }
+    ]
+}

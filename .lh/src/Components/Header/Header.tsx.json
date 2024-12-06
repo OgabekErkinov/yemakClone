@@ -1,0 +1,182 @@
+{
+    "sourceFile": "src/Components/Header/Header.tsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 41,
+            "patches": [
+                {
+                    "date": 1732855018023,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1732855052657,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,8 +8,9 @@\n   return (\r\n     <Container height={{sm : '120px', md : '70px', lg : '400px'}}\r\n                width={'100%'}\r\n                padding={'1rem'}\r\n+               marg\r\n                bgImage=\"url('https://yemak.uz/static/media/bg_image1.941827cc.jpg')\"\r\n                bgSize={'105%'}\r\n                bgColor={'#000'}\r\n                bgRepeat={'no-repeat'}\r\n"
+                },
+                {
+                    "date": 1733117032670,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,11 +8,11 @@\n   return (\r\n     <Container height={{sm : '120px', md : '70px', lg : '400px'}}\r\n                width={'100%'}\r\n                padding={'1rem'}\r\n-               marg\r\n+               margin={0}\r\n                bgImage=\"url('https://yemak.uz/static/media/bg_image1.941827cc.jpg')\"\r\n-               bgSize={'105%'}\r\n+               bgSize={'100%'}\r\n                bgColor={'#000'}\r\n                bgRepeat={'no-repeat'}\r\n                bgPos={'50% center'}>\r\n \r\n"
+                },
+                {
+                    "date": 1733117088357,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,8 @@\n   return (\r\n     <Container height={{sm : '120px', md : '70px', lg : '400px'}}\r\n                width={'100%'}\r\n                padding={'1rem'}\r\n-               margin={0}\r\n                bgImage=\"url('https://yemak.uz/static/media/bg_image1.941827cc.jpg')\"\r\n                bgSize={'100%'}\r\n                bgColor={'#000'}\r\n                bgRepeat={'no-repeat'}\r\n"
+                },
+                {
+                    "date": 1733117324049,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n                bgImage=\"url('https://yemak.uz/static/media/bg_image1.941827cc.jpg')\"\r\n                bgSize={'100%'}\r\n                bgColor={'#000'}\r\n                bgRepeat={'no-repeat'}\r\n-               bgPos={'50% center'}>\r\n+               bgPos={'100% center'}>\r\n \r\n             <Flex height={'100%'}\r\n                   width={'100%'}\r\n                   paddingX={'1rem'}\r\n"
+                },
+                {
+                    "date": 1733117331698,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n                bgImage=\"url('https://yemak.uz/static/media/bg_image1.941827cc.jpg')\"\r\n                bgSize={'100%'}\r\n                bgColor={'#000'}\r\n                bgRepeat={'no-repeat'}\r\n-               bgPos={'100% center'}>\r\n+               bgPos={'50% center'}>\r\n \r\n             <Flex height={'100%'}\r\n                   width={'100%'}\r\n                   paddingX={'1rem'}\r\n"
+                },
+                {
+                    "date": 1733117443542,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n \r\n const Header = () => {\r\n   return (\r\n     <Container height={{sm : '120px', md : '70px', lg : '400px'}}\r\n-               width={'100%'}\r\n+               max-width={'100%'}\r\n                padding={'1rem'}\r\n                bgImage=\"url('https://yemak.uz/static/media/bg_image1.941827cc.jpg')\"\r\n                bgSize={'100%'}\r\n                bgColor={'#000'}\r\n"
+                },
+                {
+                    "date": 1733117450998,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n \r\n const Header = () => {\r\n   return (\r\n     <Container height={{sm : '120px', md : '70px', lg : '400px'}}\r\n-               max-width={'100%'}\r\n+               max-width={'1660px'}\r\n                padding={'1rem'}\r\n                bgImage=\"url('https://yemak.uz/static/media/bg_image1.941827cc.jpg')\"\r\n                bgSize={'100%'}\r\n                bgColor={'#000'}\r\n"
+                },
+                {
+                    "date": 1733118112215,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,8 +8,9 @@\n   return (\r\n     <Container height={{sm : '120px', md : '70px', lg : '400px'}}\r\n                max-width={'1660px'}\r\n                padding={'1rem'}\r\n+               marg\r\n                bgImage=\"url('https://yemak.uz/static/media/bg_image1.941827cc.jpg')\"\r\n                bgSize={'100%'}\r\n                bgColor={'#000'}\r\n                bgRepeat={'no-repeat'}\r\n"
+                },
+                {
+                    "date": 1733118171047,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,11 +6,11 @@\n \r\n const Header = () => {\r\n   return (\r\n     <Container height={{sm : '120px', md : '70px', lg : '400px'}}\r\n-               max-width={'1660px'}\r\n+               width={'1660px'}\r\n                padding={'1rem'}\r\n-               marg\r\n+               margin={0}\r\n                bgImage=\"url('https://yemak.uz/static/media/bg_image1.941827cc.jpg')\"\r\n                bgSize={'100%'}\r\n                bgColor={'#000'}\r\n                bgRepeat={'no-repeat'}\r\n"
+                },
+                {
+                    "date": 1733118219229,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,13 +6,14 @@\n \r\n const Header = () => {\r\n   return (\r\n     <Container height={{sm : '120px', md : '70px', lg : '400px'}}\r\n-               width={'1660px'}\r\n+               width={'100%'}\r\n                padding={'1rem'}\r\n                margin={0}\r\n                bgImage=\"url('https://yemak.uz/static/media/bg_image1.941827cc.jpg')\"\r\n                bgSize={'100%'}\r\n+               bg\r\n                bgColor={'#000'}\r\n                bgRepeat={'no-repeat'}\r\n                bgPos={'50% center'}>\r\n \r\n"
+                },
+                {
+                    "date": 1733118249216,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,8 @@\n                padding={'1rem'}\r\n                margin={0}\r\n                bgImage=\"url('https://yemak.uz/static/media/bg_image1.941827cc.jpg')\"\r\n                bgSize={'100%'}\r\n-               bg\r\n                bgColor={'#000'}\r\n                bgRepeat={'no-repeat'}\r\n                bgPos={'50% center'}>\r\n \r\n"
+                },
+                {
+                    "date": 1733118289804,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n                width={'100%'}\r\n                padding={'1rem'}\r\n                margin={0}\r\n                bgImage=\"url('https://yemak.uz/static/media/bg_image1.941827cc.jpg')\"\r\n-               bgSize={'100%'}\r\n+               bgSize={'120%'}\r\n                bgColor={'#000'}\r\n                bgRepeat={'no-repeat'}\r\n                bgPos={'50% center'}>\r\n \r\n"
+                },
+                {
+                    "date": 1733118743775,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n                width={'100%'}\r\n                padding={'1rem'}\r\n                margin={0}\r\n                bgImage=\"url('https://yemak.uz/static/media/bg_image1.941827cc.jpg')\"\r\n-               bgSize={'120%'}\r\n+               bgSize={'100%'}\r\n                bgColor={'#000'}\r\n                bgRepeat={'no-repeat'}\r\n                bgPos={'50% center'}>\r\n \r\n"
+                },
+                {
+                    "date": 1733121085848,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,8 +12,9 @@\n                margin={0}\r\n                bgImage=\"url('https://yemak.uz/static/media/bg_image1.941827cc.jpg')\"\r\n                bgSize={'100%'}\r\n                bgColor={'#000'}\r\n+               \r\n                bgRepeat={'no-repeat'}\r\n                bgPos={'50% center'}>\r\n \r\n             <Flex height={'100%'}\r\n"
+                },
+                {
+                    "date": 1733121101208,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,8 @@\n                margin={0}\r\n                bgImage=\"url('https://yemak.uz/static/media/bg_image1.941827cc.jpg')\"\r\n                bgSize={'100%'}\r\n                bgColor={'#000'}\r\n-               \r\n                bgRepeat={'no-repeat'}\r\n                bgPos={'50% center'}>\r\n \r\n             <Flex height={'100%'}\r\n"
+                },
+                {
+                    "date": 1733121107135,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n                width={'100%'}\r\n                padding={'1rem'}\r\n                margin={0}\r\n                bgImage=\"url('https://yemak.uz/static/media/bg_image1.941827cc.jpg')\"\r\n-               bgSize={'100%'}\r\n+               bgSize={'co'}\r\n                bgColor={'#000'}\r\n                bgRepeat={'no-repeat'}\r\n                bgPos={'50% center'}>\r\n \r\n"
+                },
+                {
+                    "date": 1733121182298,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,13 +6,13 @@\n \r\n const Header = () => {\r\n   return (\r\n     <Container height={{sm : '120px', md : '70px', lg : '400px'}}\r\n-               width={'100%'}\r\n+               width={'1920'}\r\n                padding={'1rem'}\r\n                margin={0}\r\n                bgImage=\"url('https://yemak.uz/static/media/bg_image1.941827cc.jpg')\"\r\n-               bgSize={'co'}\r\n+               bgSize={'cover'}\r\n                bgColor={'#000'}\r\n                bgRepeat={'no-repeat'}\r\n                bgPos={'50% center'}>\r\n \r\n"
+                },
+                {
+                    "date": 1733123149985,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,39 +5,37 @@\n \r\n \r\n const Header = () => {\r\n   return (\r\n-    <Container height={{sm : '120px', md : '70px', lg : '400px'}}\r\n-               width={'1920'}\r\n-               padding={'1rem'}\r\n-               margin={0}\r\n-               bgImage=\"url('https://yemak.uz/static/media/bg_image1.941827cc.jpg')\"\r\n-               bgSize={'cover'}\r\n-               bgColor={'#000'}\r\n-               bgRepeat={'no-repeat'}\r\n-               bgPos={'50% center'}>\r\n+<Container\r\n+  height={{ sm: '120px', md: '70px', lg: '400px' }}\r\n+  width=\"100%\" /* Kenglikni to‘liq qoplash */\r\n+  padding=\"1rem\"\r\n+  margin={0}\r\n+  bgImage=\"url('https://yemak.uz/static/media/bg_image1.941827cc.jpg')\"\r\n+  bgSize=\"cover\"\r\n+  bgColor=\"#000\"\r\n+  bgRepeat=\"no-repeat\"\r\n+  bgPos=\"50% center\"\r\n+>\r\n+  <Flex\r\n+    height=\"100%\"\r\n+    width=\"100%\"\r\n+    paddingX=\"1rem\"\r\n+    boxSizing=\"border-box\"\r\n+  >\r\n+    <Flex\r\n+      width=\"100%\"\r\n+      height=\"100%\"\r\n+      justify=\"space-between\"\r\n+      alignItems=\"center\"\r\n+    >\r\n+      <LogoAndSearch />\r\n+      <LoginAndMap />\r\n+    </Flex>\r\n+  </Flex>\r\n+</Container>\r\n \r\n-            <Flex height={'100%'}\r\n-                  width={'100%'}\r\n-                  paddingX={'1rem'}\r\n-                  boxSizing={'border-box'}>\r\n-\r\n-                <Flex width={'100%'}\r\n-                      height={'100%'}\r\n-                      justify={'space-between'}\r\n-                      alignItems={'center'}>\r\n-                        \r\n-                     {/* yemak rasmiy logotipi va qidiruv inputi */}\r\n-                     <LogoAndSearch/>\r\n-                     {/* Kirish tugmasi va xarita */}\r\n-                     <LoginAndMap/>\r\n-                   \r\n-\r\n-                </Flex>\r\n-\r\n-            </Flex>\r\n-\r\n-    </Container>\r\n   )\r\n }\r\n \r\n export default Header\r\n"
+                },
+                {
+                    "date": 1733123554541,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n \r\n \r\n const Header = () => {\r\n   return (\r\n-<Container\r\n+<Box\r\n   height={{ sm: '120px', md: '70px', lg: '400px' }}\r\n   width=\"100%\" /* Kenglikni to‘liq qoplash */\r\n   padding=\"1rem\"\r\n   margin={0}\r\n@@ -32,9 +32,9 @@\n       <LogoAndSearch />\r\n       <LoginAndMap />\r\n     </Flex>\r\n   </Flex>\r\n-</Container>\r\n+</Box>\r\n \r\n   )\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1733123590424,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,14 +1,14 @@\n-import { Container, Flex } from '@chakra-ui/react'\r\n+import { Box, Container, Flex } from '@chakra-ui/react'\r\n import LoginAndMap from './Components/LoginAndMap'\r\n import LogoAndSearch from './Components/LogoAndSearch'\r\n \r\n \r\n \r\n const Header = () => {\r\n   return (\r\n <Box\r\n-  height={{ sm: '120px', md: '70px', lg: '400px' }}\r\n+  height={{ sm: '120px', md: '70px', lg: '' }}\r\n   width=\"100%\" /* Kenglikni to‘liq qoplash */\r\n   padding=\"1rem\"\r\n   margin={0}\r\n   bgImage=\"url('https://yemak.uz/static/media/bg_image1.941827cc.jpg')\"\r\n"
+                },
+                {
+                    "date": 1733123827624,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,11 +6,11 @@\n \r\n const Header = () => {\r\n   return (\r\n <Box\r\n-  height={{ sm: '120px', md: '70px', lg: '' }}\r\n+  height={{ sm: '120px', md: '70px', lg: '25rem' }}\r\n   width=\"100%\" /* Kenglikni to‘liq qoplash */\r\n-  padding=\"1rem\"\r\n+  padding=\"1.5rem\"\r\n   margin={0}\r\n   bgImage=\"url('https://yemak.uz/static/media/bg_image1.941827cc.jpg')\"\r\n   bgSize=\"cover\"\r\n   bgColor=\"#000\"\r\n"
+                },
+                {
+                    "date": 1733288180028,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n   bgRepeat=\"no-repeat\"\r\n   bgPos=\"50% center\"\r\n >\r\n   <Flex\r\n-    height=\"100%\"\r\n+    height=\"50%\"\r\n     width=\"100%\"\r\n     paddingX=\"1rem\"\r\n     boxSizing=\"border-box\"\r\n   >\r\n"
+                },
+                {
+                    "date": 1733288185309,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n   bgPos=\"50% center\"\r\n >\r\n   <Flex\r\n     height=\"50%\"\r\n-    width=\"100%\"\r\n+    width=\"180%\"\r\n     paddingX=\"1rem\"\r\n     boxSizing=\"border-box\"\r\n   >\r\n     <Flex\r\n"
+                },
+                {
+                    "date": 1733288206397,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,8 +9,9 @@\n <Box\r\n   height={{ sm: '120px', md: '70px', lg: '25rem' }}\r\n   width=\"100%\" /* Kenglikni to‘liq qoplash */\r\n   padding=\"1.5rem\"\r\n+  display={}\r\n   margin={0}\r\n   bgImage=\"url('https://yemak.uz/static/media/bg_image1.941827cc.jpg')\"\r\n   bgSize=\"cover\"\r\n   bgColor=\"#000\"\r\n@@ -18,9 +19,9 @@\n   bgPos=\"50% center\"\r\n >\r\n   <Flex\r\n     height=\"50%\"\r\n-    width=\"180%\"\r\n+    width=\"80%\"\r\n     paddingX=\"1rem\"\r\n     boxSizing=\"border-box\"\r\n   >\r\n     <Flex\r\n"
+                },
+                {
+                    "date": 1733288215816,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,10 @@\n <Box\r\n   height={{ sm: '120px', md: '70px', lg: '25rem' }}\r\n   width=\"100%\" /* Kenglikni to‘liq qoplash */\r\n   padding=\"1.5rem\"\r\n-  display={}\r\n+  display={'flex'}\r\n+  align\r\n   margin={0}\r\n   bgImage=\"url('https://yemak.uz/static/media/bg_image1.941827cc.jpg')\"\r\n   bgSize=\"cover\"\r\n   bgColor=\"#000\"\r\n"
+                },
+                {
+                    "date": 1733288227155,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,10 @@\n   height={{ sm: '120px', md: '70px', lg: '25rem' }}\r\n   width=\"100%\" /* Kenglikni to‘liq qoplash */\r\n   padding=\"1.5rem\"\r\n   display={'flex'}\r\n-  align\r\n+  alignItems={'center'}\r\n+  justify\r\n   margin={0}\r\n   bgImage=\"url('https://yemak.uz/static/media/bg_image1.941827cc.jpg')\"\r\n   bgSize=\"cover\"\r\n   bgColor=\"#000\"\r\n"
+                },
+                {
+                    "date": 1733288254818,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,12 +8,12 @@\n   return (\r\n <Box\r\n   height={{ sm: '120px', md: '70px', lg: '25rem' }}\r\n   width=\"100%\" /* Kenglikni to‘liq qoplash */\r\n-  padding=\"1.5rem\"\r\n+  padding={1.5rem\"\r\n   display={'flex'}\r\n   alignItems={'center'}\r\n-  justify\r\n+  justifyContent={'center'}\r\n   margin={0}\r\n   bgImage=\"url('https://yemak.uz/static/media/bg_image1.941827cc.jpg')\"\r\n   bgSize=\"cover\"\r\n   bgColor=\"#000\"\r\n"
+                },
+                {
+                    "date": 1733288274991,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,44 @@\n+import { Box, Container, Flex } from '@chakra-ui/react'\r\n+import LoginAndMap from './Components/LoginAndMap'\r\n+import LogoAndSearch from './Components/LogoAndSearch'\r\n+\r\n+\r\n+\r\n+const Header = () => {\r\n+  return (\r\n+<Box\r\n+  height={{ sm: '120px', md: '70px', lg: '25rem' }}\r\n+  width=\"100%\" /* Kenglikni to‘liq qoplash */\r\n+  padding='1.5rem'\r\n+  display={'flex'}\r\n+  alignItems={'center'}\r\n+  justifyContent={'center'}\r\n+  margin={0}\r\n+  bgImage=\"url('https://yemak.uz/static/media/bg_image1.941827cc.jpg')\"\r\n+  bgSize=\"cover\"\r\n+  bgColor=\"#000\"\r\n+  bgRepeat=\"no-repeat\"\r\n+  bgPos=\"50% center\"\r\n+>\r\n+  <Flex\r\n+    height=\"50%\"\r\n+    width=\"80%\"\r\n+    paddingX=\"1rem\"\r\n+    boxSizing=\"border-box\"\r\n+  >\r\n+    <Flex\r\n+      width=\"100%\"\r\n+      height=\"100%\"\r\n+      justify=\"space-between\"\r\n+      alignItems=\"center\"\r\n+    >\r\n+      <LogoAndSearch />\r\n+      <LoginAndMap />\r\n+    </Flex>\r\n+  </Flex>\r\n+</Box>\r\n+\r\n+  )\r\n+}\r\n+\r\n+export default Header\r\n"
+                },
+                {
+                    "date": 1733288281986,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,12 +9,12 @@\n <Box\r\n   height={{ sm: '120px', md: '70px', lg: '25rem' }}\r\n   width=\"100%\" /* Kenglikni to‘liq qoplash */\r\n   padding='1.5rem'\r\n-  display={'flex'}\r\n-  alignItems={'center'}\r\n-  justifyContent={'center'}\r\n-  margin={0}\r\n+  display='flex'\r\n+  alignItems='center'\r\n+  justifyContent='center'\r\n+  margin=0\r\n   bgImage=\"url('https://yemak.uz/static/media/bg_image1.941827cc.jpg')\"\r\n   bgSize=\"cover\"\r\n   bgColor=\"#000\"\r\n   bgRepeat=\"no-repeat\"\r\n@@ -41,48 +41,4 @@\n   )\r\n }\r\n \r\n export default Header\r\n-import { Box, Container, Flex } from '@chakra-ui/react'\r\n-import LoginAndMap from './Components/LoginAndMap'\r\n-import LogoAndSearch from './Components/LogoAndSearch'\r\n-\r\n-\r\n-\r\n-const Header = () => {\r\n-  return (\r\n-<Box\r\n-  height={{ sm: '120px', md: '70px', lg: '25rem' }}\r\n-  width=\"100%\" /* Kenglikni to‘liq qoplash */\r\n-  padding={1.5rem\"\r\n-  display={'flex'}\r\n-  alignItems={'center'}\r\n-  justifyContent={'center'}\r\n-  margin={0}\r\n-  bgImage=\"url('https://yemak.uz/static/media/bg_image1.941827cc.jpg')\"\r\n-  bgSize=\"cover\"\r\n-  bgColor=\"#000\"\r\n-  bgRepeat=\"no-repeat\"\r\n-  bgPos=\"50% center\"\r\n->\r\n-  <Flex\r\n-    height=\"50%\"\r\n-    width=\"80%\"\r\n-    paddingX=\"1rem\"\r\n-    boxSizing=\"border-box\"\r\n-  >\r\n-    <Flex\r\n-      width=\"100%\"\r\n-      height=\"100%\"\r\n-      justify=\"space-between\"\r\n-      alignItems=\"center\"\r\n-    >\r\n-      <LogoAndSearch />\r\n-      <LoginAndMap />\r\n-    </Flex>\r\n-  </Flex>\r\n-</Box>\r\n-\r\n-  )\r\n-}\r\n-\r\n-export default Header\r\n"
+                },
+                {
+                    "date": 1733288288465,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n   padding='1.5rem'\r\n   display='flex'\r\n   alignItems='center'\r\n   justifyContent='center'\r\n-  margin=0\r\n+  margin= '0px'\r\n   bgImage=\"url('https://yemak.uz/static/media/bg_image1.941827cc.jpg')\"\r\n   bgSize=\"cover\"\r\n   bgColor=\"#000\"\r\n   bgRepeat=\"no-repeat\"\r\n"
+                },
+                {
+                    "date": 1733288298911,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,8 +22,9 @@\n >\r\n   <Flex\r\n     height=\"50%\"\r\n     width=\"80%\"\r\n+    \r\n     paddingX=\"1rem\"\r\n     boxSizing=\"border-box\"\r\n   >\r\n     <Flex\r\n"
+                },
+                {
+                    "date": 1733288304683,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n >\r\n   <Flex\r\n     height=\"50%\"\r\n     width=\"80%\"\r\n-    \r\n+    justifyContent= ''\r\n     paddingX=\"1rem\"\r\n     boxSizing=\"border-box\"\r\n   >\r\n     <Flex\r\n"
+                },
+                {
+                    "date": 1733288341502,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,11 +20,11 @@\n   bgRepeat=\"no-repeat\"\r\n   bgPos=\"50% center\"\r\n >\r\n   <Flex\r\n-    height=\"50%\"\r\n+    height=\"60%\"\r\n     width=\"80%\"\r\n-    justifyContent= ''\r\n+    justifyContent= 'space-between'\r\n     paddingX=\"1rem\"\r\n     boxSizing=\"border-box\"\r\n   >\r\n     <Flex\r\n"
+                },
+                {
+                    "date": 1733288378694,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,9 +26,9 @@\n     justifyContent= 'space-between'\r\n     paddingX=\"1rem\"\r\n     boxSizing=\"border-box\"\r\n   >\r\n-    <Flex\r\n+    <Stac\r\n       width=\"100%\"\r\n       height=\"100%\"\r\n       justify=\"space-between\"\r\n       alignItems=\"center\"\r\n"
+                },
+                {
+                    "date": 1733288387398,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-import { Box, Container, Flex } from '@chakra-ui/react'\r\n+import { Box, Container, Flex, Stack } from '@chakra-ui/react'\r\n import LoginAndMap from './Components/LoginAndMap'\r\n import LogoAndSearch from './Components/LogoAndSearch'\r\n \r\n \r\n@@ -26,17 +26,17 @@\n     justifyContent= 'space-between'\r\n     paddingX=\"1rem\"\r\n     boxSizing=\"border-box\"\r\n   >\r\n-    <Stac\r\n+    <Stack\r\n       width=\"100%\"\r\n       height=\"100%\"\r\n       justify=\"space-between\"\r\n       alignItems=\"center\"\r\n     >\r\n       <LogoAndSearch />\r\n       <LoginAndMap />\r\n-    </Flex>\r\n+    </Stack>\r\n   </Flex>\r\n </Box>\r\n \r\n   )\r\n"
+                },
+                {
+                    "date": 1733288407828,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,17 +26,8 @@\n     justifyContent= 'space-between'\r\n     paddingX=\"1rem\"\r\n     boxSizing=\"border-box\"\r\n   >\r\n-    <Stack\r\n-      width=\"100%\"\r\n-      height=\"100%\"\r\n-      justify=\"space-between\"\r\n-      alignItems=\"center\"\r\n-    >\r\n-      <LogoAndSearch />\r\n-      <LoginAndMap />\r\n-    </Stack>\r\n   </Flex>\r\n </Box>\r\n \r\n   )\r\n"
+                },
+                {
+                    "date": 1733288439818,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,8 +26,9 @@\n     justifyContent= 'space-between'\r\n     paddingX=\"1rem\"\r\n     boxSizing=\"border-box\"\r\n   >\r\n+     \r\n   </Flex>\r\n </Box>\r\n \r\n   )\r\n"
+                },
+                {
+                    "date": 1733288446066,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,13 +20,13 @@\n   bgRepeat=\"no-repeat\"\r\n   bgPos=\"50% center\"\r\n >\r\n   <Flex\r\n-    height=\"60%\"\r\n-    width=\"80%\"\r\n-    justifyContent= 'space-between'\r\n-    paddingX=\"1rem\"\r\n-    boxSizing=\"border-box\"\r\n+      height=\"60%\"\r\n+      width=\"80%\"\r\n+      justifyContent= 'space-between'\r\n+      paddingX=\"1rem\"\r\n+      boxSizing=\"border-box\"\r\n   >\r\n      \r\n   </Flex>\r\n </Box>\r\n"
+                },
+                {
+                    "date": 1733288452012,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,8 +26,9 @@\n       justifyContent= 'space-between'\r\n       paddingX=\"1rem\"\r\n       boxSizing=\"border-box\"\r\n   >\r\n+    <LogoAndSearch/>\r\n      \r\n   </Flex>\r\n </Box>\r\n \r\n"
+                },
+                {
+                    "date": 1733288460989,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,9 @@\n       paddingX=\"1rem\"\r\n       boxSizing=\"border-box\"\r\n   >\r\n     <LogoAndSearch/>\r\n-    \r\n+    <\r\n      \r\n   </Flex>\r\n </Box>\r\n \r\n"
+                },
+                {
+                    "date": 1733288480102,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,9 @@\n       paddingX=\"1rem\"\r\n       boxSizing=\"border-box\"\r\n   >\r\n     <LogoAndSearch/>\r\n-    <LogoAndMap\r\n+    <LogoAndMap/>\r\n      \r\n   </Flex>\r\n </Box>\r\n \r\n"
+                }
+            ],
+            "date": 1732855018023,
+            "name": "Commit-0",
+            "content": "import { Container, Flex } from '@chakra-ui/react'\r\nimport LoginAndMap from './Components/LoginAndMap'\r\nimport LogoAndSearch from './Components/LogoAndSearch'\r\n\r\n\r\n\r\nconst Header = () => {\r\n  return (\r\n    <Container height={{sm : '120px', md : '70px', lg : '400px'}}\r\n               width={'100%'}\r\n               padding={'1rem'}\r\n               bgImage=\"url('https://yemak.uz/static/media/bg_image1.941827cc.jpg')\"\r\n               bgSize={'105%'}\r\n               bgColor={'#000'}\r\n               bgRepeat={'no-repeat'}\r\n               bgPos={'50% center'}>\r\n\r\n            <Flex height={'100%'}\r\n                  width={'100%'}\r\n                  paddingX={'1rem'}\r\n                  boxSizing={'border-box'}>\r\n\r\n                <Flex width={'100%'}\r\n                      height={'100%'}\r\n                      justify={'space-between'}\r\n                      alignItems={'center'}>\r\n                        \r\n                     {/* yemak rasmiy logotipi va qidiruv inputi */}\r\n                     <LogoAndSearch/>\r\n                     {/* Kirish tugmasi va xarita */}\r\n                     <LoginAndMap/>\r\n                   \r\n\r\n                </Flex>\r\n\r\n            </Flex>\r\n\r\n    </Container>\r\n  )\r\n}\r\n\r\nexport default Header\r\n"
+        }
+    ]
+}

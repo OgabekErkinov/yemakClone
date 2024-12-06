@@ -1,0 +1,46 @@
+{
+    "sourceFile": "src/Components/Alert/CustomAlert.tsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 7,
+            "patches": [
+                {
+                    "date": 1733479344527,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1733479359019,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,17 +1,19 @@\n-interface CustomAlertProps {\r\n-  setAlert: (value: boolean) => void;\r\n+import { Alert } from '../ui/alert'\r\n+import { CloseButton } from '../ui/close-button'\r\n+\r\n+const CustomAlert = (\r\n+    setAlert : (value : boolean) => void\r\n+    ) =>\r\n+     {\r\n+       return (\r\n+         <Alert status={'error'} \r\n+                title = {'Invalid fields'}>\r\n+                Please check your phone number\r\n+               <CloseButton position = {'absolute'} \r\n+                            right={0} top={0}\r\n+                            onClick={() => setAlert(false)}/>            \r\n+         </Alert>\r\n+  )\r\n }\r\n \r\n-const CustomAlert: React.FC<CustomAlertProps> = ({ setAlert }) => {\r\n-  return (\r\n-    <Alert status=\"error\" title=\"Invalid fields\">\r\n-      Please check your phone number\r\n-      <CloseButton\r\n-        position=\"absolute\"\r\n-        right={0}\r\n-        top={0}\r\n-        onClick={() => setAlert(false)}\r\n-      />\r\n-    </Alert>\r\n-  );\r\n-};\r\n+export default CustomAlert\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1733479372178,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,19 +1,23 @@\n import { Alert } from '../ui/alert'\r\n import { CloseButton } from '../ui/close-button'\r\n \r\n-const CustomAlert = (\r\n-    setAlert : (value : boolean) => void\r\n-    ) =>\r\n-     {\r\n-       return (\r\n-         <Alert status={'error'} \r\n-                title = {'Invalid fields'}>\r\n-                Please check your phone number\r\n-               <CloseButton position = {'absolute'} \r\n-                            right={0} top={0}\r\n-                            onClick={() => setAlert(false)}/>            \r\n-         </Alert>\r\n-  )\r\n+interface CustomAlertProps {\r\n+  setAlert: (value: boolean) => void;\r\n }\r\n\\ No newline at end of file\n \r\n-export default CustomAlert\n+const CustomAlert: React.FC<CustomAlertProps> = ({ setAlert }) => {\r\n+  return (\r\n+    <Alert status=\"error\" title=\"Invalid fields\">\r\n+      Please check your phone number\r\n+      <CloseButton\r\n+        position=\"absolute\"\r\n+        right={0}\r\n+        top={0}\r\n+        onClick={() => setAlert(false)}\r\n+      />\r\n+    </Alert>\r\n+  );\r\n+};\r\n+\r\n+\r\n+export default\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1733479387393,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n interface CustomAlertProps {\r\n   setAlert: (value: boolean) => void;\r\n }\r\n \r\n-const CustomAlert: React.FC<CustomAlertProps> = ({ setAlert }) => {\r\n+const CustomAlert: <CustomAlertProps> = ({ setAlert }) => {\r\n   return (\r\n     <Alert status=\"error\" title=\"Invalid fields\">\r\n       Please check your phone number\r\n       <CloseButton\r\n@@ -19,5 +19,5 @@\n   );\r\n };\r\n \r\n \r\n-export default\n\\ No newline at end of file\n+export default CustomAlert\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1733479392902,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n interface CustomAlertProps {\r\n   setAlert: (value: boolean) => void;\r\n }\r\n \r\n-const CustomAlert: <CustomAlertProps> = ({ setAlert }) => {\r\n+const CustomAlert: React.FC<CustomAlertProps> = ({ setAlert }) => {\r\n   return (\r\n     <Alert status=\"error\" title=\"Invalid fields\">\r\n       Please check your phone number\r\n       <CloseButton\r\n"
+                },
+                {
+                    "date": 1733479404915,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n interface CustomAlertProps {\r\n   setAlert: (value: boolean) => void;\r\n }\r\n \r\n-const CustomAlert: React.FC<CustomAlertProps> = ({ setAlert }) => {\r\n+const CustomAlert: CustomAlertProps> = ({ setAlert }) => {\r\n   return (\r\n     <Alert status=\"error\" title=\"Invalid fields\">\r\n       Please check your phone number\r\n       <CloseButton\r\n"
+                },
+                {
+                    "date": 1733479423037,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,23 +1,19 @@\n import { Alert } from '../ui/alert'\r\n import { CloseButton } from '../ui/close-button'\r\n \r\n-interface CustomAlertProps {\r\n-  setAlert: (value: boolean) => void;\r\n+const CustomAlert = (\r\n+    setAlert : (value : boolean) => void\r\n+    ) =>\r\n+     {\r\n+       return (\r\n+         <Alert status={'error'} \r\n+                title = {'Invalid fields'}>\r\n+                Please check your phone number\r\n+               <CloseButton position = {'absolute'} \r\n+                            right={0} top={0}\r\n+                            onClick={() => setAlert(false)}/>            \r\n+         </Alert>\r\n+  )\r\n }\r\n \r\n-const CustomAlert: CustomAlertProps> = ({ setAlert }) => {\r\n-  return (\r\n-    <Alert status=\"error\" title=\"Invalid fields\">\r\n-      Please check your phone number\r\n-      <CloseButton\r\n-        position=\"absolute\"\r\n-        right={0}\r\n-        top={0}\r\n-        onClick={() => setAlert(false)}\r\n-      />\r\n-    </Alert>\r\n-  );\r\n-};\r\n-\r\n-\r\n export default CustomAlert\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1733479873253,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,19 +1,22 @@\n import { Alert } from '../ui/alert'\r\n import { CloseButton } from '../ui/close-button'\r\n \r\n-const CustomAlert = (\r\n-    setAlert : (value : boolean) => void\r\n-    ) =>\r\n-     {\r\n-       return (\r\n-         <Alert status={'error'} \r\n-                title = {'Invalid fields'}>\r\n-                Please check your phone number\r\n-               <CloseButton position = {'absolute'} \r\n-                            right={0} top={0}\r\n-                            onClick={() => setAlert(false)}/>            \r\n-         </Alert>\r\n-  )\r\n+interface CustomAlertProps {\r\n+  setAlert: (value: boolean) => void;\r\n }\r\n \r\n+const CustomAlert: React.FC<CustomAlertProps> = ({ setAlert }) => {\r\n+  return (\r\n+    <Alert status=\"error\" title=\"Invalid fields\">\r\n+      Please check your phone number\r\n+      <CloseButton\r\n+        position=\"absolute\"\r\n+        right={0}\r\n+        top={0}\r\n+        onClick={() => setAlert(false)}\r\n+      />\r\n+    </Alert>\r\n+  );\r\n+};\r\n+\r\n export default CustomAlert\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1733479344527,
+            "name": "Commit-0",
+            "content": "interface CustomAlertProps {\r\n  setAlert: (value: boolean) => void;\r\n}\r\n\r\nconst CustomAlert: React.FC<CustomAlertProps> = ({ setAlert }) => {\r\n  return (\r\n    <Alert status=\"error\" title=\"Invalid fields\">\r\n      Please check your phone number\r\n      <CloseButton\r\n        position=\"absolute\"\r\n        right={0}\r\n        top={0}\r\n        onClick={() => setAlert(false)}\r\n      />\r\n    </Alert>\r\n  );\r\n};\r\n"
+        }
+    ]
+}

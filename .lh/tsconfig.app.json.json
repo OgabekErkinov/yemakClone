@@ -1,0 +1,38 @@
+{
+    "sourceFile": "tsconfig.app.json",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 5,
+            "patches": [
+                {
+                    "date": 1733309811378,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1733309820227,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,11 @@\n {\n   \"compilerOptions\": {\n-    \"target\": \"es2015\", // yoki \"es6\"\n-    \"lib\": [\"es2015\", \"dom\"], // \"Promise\" va \"fetch\" uchun zarur kutubxonalar\n-    \"module\": \"commonjs\",\n-    \"strict\": true\n+    \"module\": \"ESNext\",\n+    \"moduleResolution\": \"Bundler\",\n+    \"skipLibCheck\": true,\n+    \"jsx\": \"react-jsx\",\n+    \"paths\": {\n+      \"@/*\": [\"./src/*\"]\n+    }\n   }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1733309834599,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,5 +7,10 @@\n     \"paths\": {\n       \"@/*\": [\"./src/*\"]\n     }\n   }\n+}\n+\n+{\n+  \"compilerOptions\": {\n+\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1733309841341,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,11 @@\n {\n   \"compilerOptions\": {\n+    \"target\": \"es2015\", // yoki \"es6\"\n+    \"lib\": [\"es2015\", \"dom\"], // \"Promise\" va \"fetch\" uchun zarur kutubxonalar\n+    \"module\": \"commonjs\",\n+    \"strict\": true\n+  }\n     \"module\": \"ESNext\",\n     \"moduleResolution\": \"Bundler\",\n     \"skipLibCheck\": true,\n     \"jsx\": \"react-jsx\",\n"
+                },
+                {
+                    "date": 1733309849886,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,19 +3,14 @@\n     \"target\": \"es2015\", // yoki \"es6\"\n     \"lib\": [\"es2015\", \"dom\"], // \"Promise\" va \"fetch\" uchun zarur kutubxonalar\n     \"module\": \"commonjs\",\n     \"strict\": true\n-  }\n+  },\n     \"module\": \"ESNext\",\n     \"moduleResolution\": \"Bundler\",\n     \"skipLibCheck\": true,\n     \"jsx\": \"react-jsx\",\n     \"paths\": {\n       \"@/*\": [\"./src/*\"]\n     }\n   }\n-}\n-\n-{\n-  \"compilerOptions\": {\n-\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1733309884979,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,11 +1,6 @@\n {\n   \"compilerOptions\": {\n-    \"target\": \"es2015\", // yoki \"es6\"\n-    \"lib\": [\"es2015\", \"dom\"], // \"Promise\" va \"fetch\" uchun zarur kutubxonalar\n-    \"module\": \"commonjs\",\n-    \"strict\": true\n-  },\n     \"module\": \"ESNext\",\n     \"moduleResolution\": \"Bundler\",\n     \"skipLibCheck\": true,\n     \"jsx\": \"react-jsx\",\n"
+                }
+            ],
+            "date": 1733309811378,
+            "name": "Commit-0",
+            "content": "{\n  \"compilerOptions\": {\n    \"target\": \"es2015\", // yoki \"es6\"\n    \"lib\": [\"es2015\", \"dom\"], // \"Promise\" va \"fetch\" uchun zarur kutubxonalar\n    \"module\": \"commonjs\",\n    \"strict\": true\n  }\n}"
+        }
+    ]
+}

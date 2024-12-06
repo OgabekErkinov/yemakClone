@@ -1,0 +1,138 @@
+{
+    "sourceFile": "src/Components/Category/Category.tsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 30,
+            "patches": [
+                {
+                    "date": 1733310625067,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1733310630536,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n                padding={'1rem'}\r\n                marginY={'1rem'}\r\n                borderBottom={'0.5px solid grey'}\r\n                >\r\n-              \r\n+              <Swipe\r\n             \r\n \r\n     </Container>\r\n   )\r\n"
+                },
+                {
+                    "date": 1733310637528,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,6 @@\n import { Container } from '@chakra-ui/react'\r\n+import { Swiper } from 'swiper/react'\r\n \r\n const Category = () => {\r\n   return (\r\n     <Container width={'100%'}\r\n@@ -8,9 +9,11 @@\n                padding={'1rem'}\r\n                marginY={'1rem'}\r\n                borderBottom={'0.5px solid grey'}\r\n                >\r\n-              <Swipe\r\n+              <Swiper>\r\n+                \r\n+              </Swiper>\r\n             \r\n \r\n     </Container>\r\n   )\r\n"
+                },
+                {
+                    "date": 1733310649263,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,7 @@\n import { Container } from '@chakra-ui/react'\r\n import { Swiper } from 'swiper/react'\r\n+import 'swiper/css';\r\n \r\n const Category = () => {\r\n   return (\r\n     <Container width={'100%'}\r\n@@ -10,9 +11,9 @@\n                marginY={'1rem'}\r\n                borderBottom={'0.5px solid grey'}\r\n                >\r\n               <Swiper>\r\n-                \r\n+\r\n               </Swiper>\r\n             \r\n \r\n     </Container>\r\n"
+                },
+                {
+                    "date": 1733310666327,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,10 @@\n                padding={'1rem'}\r\n                marginY={'1rem'}\r\n                borderBottom={'0.5px solid grey'}\r\n                >\r\n-              <Swiper>\r\n+              <Swiper\r\n+              >\r\n \r\n               </Swiper>\r\n             \r\n \r\n"
+                },
+                {
+                    "date": 1733310696285,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,11 @@\n                marginY={'1rem'}\r\n                borderBottom={'0.5px solid grey'}\r\n                >\r\n               <Swiper\r\n-              >\r\n+              spaceBetween={50}\r\n+              slidesPerView={3}\r\n+              mo>\r\n \r\n               </Swiper>\r\n             \r\n \r\n"
+                },
+                {
+                    "date": 1733310703137,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,11 @@\n                >\r\n               <Swiper\r\n               spaceBetween={50}\r\n               slidesPerView={3}\r\n-              mo>\r\n+              modules={\r\n+                Navi\r\n+              }>\r\n \r\n               </Swiper>\r\n             \r\n \r\n"
+                },
+                {
+                    "date": 1733310711789,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,8 @@\n import { Container } from '@chakra-ui/react'\r\n import { Swiper } from 'swiper/react'\r\n import 'swiper/css';\r\n+import { Navigation } from 'swiper/modules';\r\n \r\n const Category = () => {\r\n   return (\r\n     <Container width={'100%'}\r\n@@ -13,10 +14,10 @@\n                >\r\n               <Swiper\r\n               spaceBetween={50}\r\n               slidesPerView={3}\r\n-              modules={\r\n-                Navi\r\n+              modules : {\r\n+                Navigation\r\n               }>\r\n \r\n               </Swiper>\r\n             \r\n"
+                },
+                {
+                    "date": 1733310755383,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,11 +14,9 @@\n                >\r\n               <Swiper\r\n               spaceBetween={50}\r\n               slidesPerView={3}\r\n-              modules : {\r\n-                Navigation\r\n-              }>\r\n+              >\r\n \r\n               </Swiper>\r\n             \r\n \r\n"
+                },
+                {
+                    "date": 1733310762517,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import { Container } from '@chakra-ui/react'\r\n import { Swiper } from 'swiper/react'\r\n import 'swiper/css';\r\n-import { Navigation } from 'swiper/modules';\r\n \r\n+\r\n const Category = () => {\r\n   return (\r\n     <Container width={'100%'}\r\n                height={'5rem'}\r\n@@ -14,9 +14,9 @@\n                >\r\n               <Swiper\r\n               spaceBetween={50}\r\n               slidesPerView={3}\r\n-              >\r\n+              navigation>\r\n \r\n               </Swiper>\r\n             \r\n \r\n"
+                },
+                {
+                    "date": 1733310767654,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,8 +16,10 @@\n               spaceBetween={50}\r\n               slidesPerView={3}\r\n               navigation>\r\n \r\n+                \r\n+\r\n               </Swiper>\r\n             \r\n \r\n     </Container>\r\n"
+                },
+                {
+                    "date": 1733311043517,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,10 @@\n import 'swiper/css';\r\n \r\n \r\n const Category = () => {\r\n+\r\n+  \r\n   return (\r\n     <Container width={'100%'}\r\n                height={'5rem'}\r\n                boxSizing={'border-box'}\r\n@@ -16,10 +18,10 @@\n               spaceBetween={50}\r\n               slidesPerView={3}\r\n               navigation>\r\n \r\n-                \r\n \r\n+\r\n               </Swiper>\r\n             \r\n \r\n     </Container>\r\n"
+                },
+                {
+                    "date": 1733311059689,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,10 @@\n \r\n \r\n const Category = () => {\r\n \r\n-  \r\n+  const {data }\r\n+\r\n   return (\r\n     <Container width={'100%'}\r\n                height={'5rem'}\r\n                boxSizing={'border-box'}\r\n"
+                },
+                {
+                    "date": 1733311067186,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n \r\n \r\n const Category = () => {\r\n \r\n-  const {data }\r\n+  const {data, isPending, is}\r\n \r\n   return (\r\n     <Container width={'100%'}\r\n                height={'5rem'}\r\n"
+                },
+                {
+                    "date": 1733311073696,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n \r\n \r\n const Category = () => {\r\n \r\n-  const {data, isPending, is}\r\n+  const {data, isPending, isError}\r\n \r\n   return (\r\n     <Container width={'100%'}\r\n                height={'5rem'}\r\n"
+                },
+                {
+                    "date": 1733311080052,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n \r\n \r\n const Category = () => {\r\n \r\n-  const {data, isPending, isError}\r\n+  const {data, isPending, isError} = Quer\r\n \r\n   return (\r\n     <Container width={'100%'}\r\n                height={'5rem'}\r\n"
+                },
+                {
+                    "date": 1733311088929,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,12 +1,13 @@\n import { Container } from '@chakra-ui/react'\r\n import { Swiper } from 'swiper/react'\r\n import 'swiper/css';\r\n+import { useQueries } from '@tanstack/react-query';\r\n \r\n \r\n const Category = () => {\r\n \r\n-  const {data, isPending, isError} = Quer\r\n+  const {data, isPending, isError} = useQueries\r\n \r\n   return (\r\n     <Container width={'100%'}\r\n                height={'5rem'}\r\n"
+                },
+                {
+                    "date": 1733311098576,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n \r\n \r\n const Category = () => {\r\n \r\n-  const {data, isPending, isError} = useQueries\r\n+  const {data, isPending, isError} = useQueries({quer})\r\n \r\n   return (\r\n     <Container width={'100%'}\r\n                height={'5rem'}\r\n"
+                },
+                {
+                    "date": 1733311130607,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n \r\n \r\n const Category = () => {\r\n \r\n-  const {data, isPending, isError} = useQueries({quer})\r\n+  const {data, isPending, isError} = useQuery\r\n \r\n   return (\r\n     <Container width={'100%'}\r\n                height={'5rem'}\r\n"
+                },
+                {
+                    "date": 1733311139823,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,13 +1,13 @@\n import { Container } from '@chakra-ui/react'\r\n import { Swiper } from 'swiper/react'\r\n import 'swiper/css';\r\n-import { useQueries } from '@tanstack/react-query';\r\n+import { useQuery } from '@tanstack/react-query';\r\n \r\n \r\n const Category = () => {\r\n \r\n-  const {data, isPending, isError} = useQuery\r\n+  const {data, isPending, isError} = useQuery({})\r\n \r\n   return (\r\n     <Container width={'100%'}\r\n                height={'5rem'}\r\n"
+                },
+                {
+                    "date": 1733311147023,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n \r\n \r\n const Category = () => {\r\n \r\n-  const {data, isPending, isError} = useQuery({})\r\n+  const {data, isPending, isError} = useQuery({queryKey : []})\r\n \r\n   return (\r\n     <Container width={'100%'}\r\n                height={'5rem'}\r\n"
+                },
+                {
+                    "date": 1733311153133,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n \r\n \r\n const Category = () => {\r\n \r\n-  const {data, isPending, isError} = useQuery({queryKey : []})\r\n+  const {data, isPending, isError} = useQuery({queryKey : ['categories']})\r\n \r\n   return (\r\n     <Container width={'100%'}\r\n                height={'5rem'}\r\n"
+                },
+                {
+                    "date": 1733311158934,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,33 @@\n+import { Container } from '@chakra-ui/react'\r\n+import { Swiper } from 'swiper/react'\r\n+import 'swiper/css';\r\n+import { useQuery } from '@tanstack/react-query';\r\n+\r\n+\r\n+const Category = () => {\r\n+\r\n+  const {data, isPending, isError} = useQuery({queryKey : ['categories'], query})\r\n+\r\n+  return (\r\n+    <Container width={'100%'}\r\n+               height={'5rem'}\r\n+               boxSizing={'border-box'}\r\n+               padding={'1rem'}\r\n+               marginY={'1rem'}\r\n+               borderBottom={'0.5px solid grey'}\r\n+               >\r\n+              <Swiper\r\n+              spaceBetween={50}\r\n+              slidesPerView={3}\r\n+              navigation>\r\n+\r\n+\r\n+\r\n+              </Swiper>\r\n+            \r\n+\r\n+    </Container>\r\n+  )\r\n+}\r\n+\r\n+export default Category\r\n"
+                },
+                {
+                    "date": 1733311167821,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,13 +1,14 @@\n import { Container } from '@chakra-ui/react'\r\n import { Swiper } from 'swiper/react'\r\n import 'swiper/css';\r\n import { useQuery } from '@tanstack/react-query';\r\n+import { getCategories } from '@/Apis/Requests/Service.Api';\r\n \r\n \r\n const Category = () => {\r\n \r\n-  const {data, isPending, isError} = useQuery({queryKey : ['categories'], query})\r\n+  const {data, isPending, isError} = useQuery({queryKey : ['categories'], queryFn : getCategories})\r\n \r\n   return (\r\n     <Container width={'100%'}\r\n                height={'5rem'}\r\n@@ -30,37 +31,4 @@\n   )\r\n }\r\n \r\n export default Category\r\n-import { Container } from '@chakra-ui/react'\r\n-import { Swiper } from 'swiper/react'\r\n-import 'swiper/css';\r\n-import { useQuery } from '@tanstack/react-query';\r\n-\r\n-\r\n-const Category = () => {\r\n-\r\n-  const {data, isPending, isError} = useQuery({queryKey : ['categories']})\r\n-\r\n-  return (\r\n-    <Container width={'100%'}\r\n-               height={'5rem'}\r\n-               boxSizing={'border-box'}\r\n-               padding={'1rem'}\r\n-               marginY={'1rem'}\r\n-               borderBottom={'0.5px solid grey'}\r\n-               >\r\n-              <Swiper\r\n-              spaceBetween={50}\r\n-              slidesPerView={3}\r\n-              navigation>\r\n-\r\n-\r\n-\r\n-              </Swiper>\r\n-            \r\n-\r\n-    </Container>\r\n-  )\r\n-}\r\n-\r\n-export default Category\r\n"
+                },
+                {
+                    "date": 1733311184394,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,10 +21,12 @@\n               spaceBetween={50}\r\n               slidesPerView={3}\r\n               navigation>\r\n \r\n+                \r\n \r\n \r\n+\r\n               </Swiper>\r\n             \r\n \r\n     </Container>\r\n"
+                },
+                {
+                    "date": 1733311191101,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,9 @@\n               spaceBetween={50}\r\n               slidesPerView={3}\r\n               navigation>\r\n \r\n-                \r\n+                {data?.}\r\n \r\n \r\n \r\n               </Swiper>\r\n"
+                },
+                {
+                    "date": 1733311197103,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,9 @@\n               spaceBetween={50}\r\n               slidesPerView={3}\r\n               navigation>\r\n \r\n-                {data?.}\r\n+                {data?.map((i))}\r\n \r\n \r\n \r\n               </Swiper>\r\n"
+                },
+                {
+                    "date": 1733311203613,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,9 @@\n               spaceBetween={50}\r\n               slidesPerView={3}\r\n               navigation>\r\n \r\n-                {data?.map((i))}\r\n+                {data?.map((item) => )}\r\n \r\n \r\n \r\n               </Swiper>\r\n"
+                },
+                {
+                    "date": 1733311214147,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,9 @@\n               spaceBetween={50}\r\n               slidesPerView={3}\r\n               navigation>\r\n \r\n-                {data?.map((item) => )}\r\n+                {data?.map((item) => <Sli)}\r\n \r\n \r\n \r\n               </Swiper>\r\n"
+                },
+                {
+                    "date": 1733311220140,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,9 @@\n               spaceBetween={50}\r\n               slidesPerView={3}\r\n               navigation>\r\n \r\n-                {data?.map((item) => <)}\r\n+                {data?.map((item) => <S)}\r\n \r\n \r\n \r\n               </Swiper>\r\n"
+                },
+                {
+                    "date": 1733311255407,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n               spaceBetween={50}\r\n               slidesPerView={3}\r\n               navigation>\r\n \r\n-                {data?.map((item) => <SwiperSlide key={}>\r\n+                {data?.map((item) => <SwiperSlide key={i}>\r\n                                         <CategoryItem/>\r\n                                      </SwiperSlide>)}\r\n \r\n \r\n"
+                }
+            ],
+            "date": 1733310625067,
+            "name": "Commit-0",
+            "content": "import { Container } from '@chakra-ui/react'\r\n\r\nconst Category = () => {\r\n  return (\r\n    <Container width={'100%'}\r\n               height={'5rem'}\r\n               boxSizing={'border-box'}\r\n               padding={'1rem'}\r\n               marginY={'1rem'}\r\n               borderBottom={'0.5px solid grey'}\r\n               >\r\n              \r\n            \r\n\r\n    </Container>\r\n  )\r\n}\r\n\r\nexport default Category\r\n"
+        }
+    ]
+}

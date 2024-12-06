@@ -1,0 +1,46 @@
+{
+    "sourceFile": "src/Provider/Provider.tsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 7,
+            "patches": [
+                {
+                    "date": 1733310845536,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1733310851649,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n import { Provider } from \"../Components/ui/provider\"\r\n import { ReactNode } from \"react\"\r\n-i\r\n+import {Query}\r\n \r\n interface Nodes {\r\n     children : ReactNode\r\n }\r\n"
+                },
+                {
+                    "date": 1733310858496,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n import { Provider } from \"../Components/ui/provider\"\r\n import { ReactNode } from \"react\"\r\n-import {Query}\r\n+import {QueryClientProvider}\r\n \r\n interface Nodes {\r\n     children : ReactNode\r\n }\r\n"
+                },
+                {
+                    "date": 1733310878210,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n import { Provider } from \"../Components/ui/provider\"\r\n import { ReactNode } from \"react\"\r\n-import {QueryClientProvider}\r\n+import {} from\r\n \r\n interface Nodes {\r\n     children : ReactNode\r\n }\r\n"
+                },
+                {
+                    "date": 1733310894451,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n import { Provider } from \"../Components/ui/provider\"\r\n import { ReactNode } from \"react\"\r\n-import {} from\r\n+import {} from '@'\r\n \r\n interface Nodes {\r\n     children : ReactNode\r\n }\r\n"
+                },
+                {
+                    "date": 1733310902721,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n import { Provider } from \"../Components/ui/provider\"\r\n import { ReactNode } from \"react\"\r\n-import {} from '@'\r\n+import { Quer} from '@tanstack/react-query'\r\n \r\n interface Nodes {\r\n     children : ReactNode\r\n }\r\n"
+                },
+                {
+                    "date": 1733310909318,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n import { Provider } from \"../Components/ui/provider\"\r\n import { ReactNode } from \"react\"\r\n-import { QueryClientProvider} from '@tanstack/react-query'\r\n+import { QueryClientProvider } from '@tanstack/react-query'\r\n \r\n interface Nodes {\r\n     children : ReactNode\r\n }\r\n"
+                },
+                {
+                    "date": 1733310917885,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n \r\n \r\n const Providers = ({children} : Nodes) => {\r\n   return ( \r\n-    <QueryClientProvider\r\n+    <QueryClientProvider></QueryClientProvider>\r\n     <Provider>\r\n         {children}\r\n     </Provider>\r\n   )\r\n"
+                }
+            ],
+            "date": 1733310845536,
+            "name": "Commit-0",
+            "content": "import { Provider } from \"../Components/ui/provider\"\r\nimport { ReactNode } from \"react\"\r\ni\r\n\r\ninterface Nodes {\r\n    children : ReactNode\r\n}\r\n\r\n\r\nconst Providers = ({children} : Nodes) => {\r\n  return ( \r\n    <Provider>\r\n        {children}\r\n    </Provider>\r\n  )\r\n}\r\n\r\nexport default Providers\r\n"
+        }
+    ]
+}

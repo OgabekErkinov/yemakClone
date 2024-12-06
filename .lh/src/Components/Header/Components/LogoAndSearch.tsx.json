@@ -1,0 +1,86 @@
+{
+    "sourceFile": "src/Components/Header/Components/LogoAndSearch.tsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 17,
+            "patches": [
+                {
+                    "date": 1733123727422,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1733123733761,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,10 +3,10 @@\n \r\n const LogoAndSearch = () => {\r\n   return (\r\n     <Stack width={{sm : '100%', md : '100%', lg : '40%'}}\r\n-    height={'40%'}\r\n-    gapY={'auto'}>\r\n+           height={'40%'}\r\n+           gapY={'auto'}>\r\n  <Link href='/' height={'45%'}>\r\n    <YemakIcon/>\r\n  </Link>\r\n  <Box width={'100%'}\r\n"
+                },
+                {
+                    "date": 1733123740940,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,10 +5,10 @@\n   return (\r\n     <Stack width={{sm : '100%', md : '100%', lg : '40%'}}\r\n            height={'40%'}\r\n            gapY={'auto'}>\r\n- <Link href='/' height={'45%'}>\r\n-   <YemakIcon/>\r\n+          <Link href='/' height={'45%'}>\r\n+               <YemakIcon/>\r\n  </Link>\r\n  <Box width={'100%'}\r\n        height={'auto'}\r\n        border={'none'}\r\n"
+                },
+                {
+                    "date": 1733123750171,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,11 +7,11 @@\n            height={'40%'}\r\n            gapY={'auto'}>\r\n           <Link href='/' height={'45%'}>\r\n                <YemakIcon/>\r\n- </Link>\r\n- <Box width={'100%'}\r\n-       height={'auto'}\r\n+          </Link>\r\n+         <Box width={'100%'}\r\n+              height={'auto'}\r\n        border={'none'}\r\n        borderRadius={'5px'}\r\n        bgColor={'#ffff'}>\r\n      <Input border={'none'}\r\n"
+                },
+                {
+                    "date": 1733123756995,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,11 +10,11 @@\n                <YemakIcon/>\r\n           </Link>\r\n          <Box width={'100%'}\r\n               height={'auto'}\r\n-       border={'none'}\r\n-       borderRadius={'5px'}\r\n-       bgColor={'#ffff'}>\r\n+              border={'none'}\r\n+              borderRadius={'5px'}\r\n+              bgColor={'#ffff'}>\r\n      <Input border={'none'}\r\n              placeholder='Restoran yoki taom nomi'/>\r\n \r\n  </Box>\r\n"
+                },
+                {
+                    "date": 1733123764125,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,10 +13,10 @@\n               height={'auto'}\r\n               border={'none'}\r\n               borderRadius={'5px'}\r\n               bgColor={'#ffff'}>\r\n-     <Input border={'none'}\r\n-             placeholder='Restoran yoki taom nomi'/>\r\n+             <Input border={'none'}\r\n+                    placeholder='Restoran yoki taom nomi'/>\r\n \r\n  </Box>\r\n </Stack>\r\n   )\r\n"
+                },
+                {
+                    "date": 1733123769506,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,10 +15,9 @@\n               borderRadius={'5px'}\r\n               bgColor={'#ffff'}>\r\n              <Input border={'none'}\r\n                     placeholder='Restoran yoki taom nomi'/>\r\n-\r\n- </Box>\r\n+        </Box>\r\n </Stack>\r\n   )\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1733288420010,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n \r\n const LogoAndSearch = () => {\r\n   return (\r\n     <Stack width={{sm : '100%', md : '100%', lg : '40%'}}\r\n-           height={'40%'}\r\n+           height={'1000%'}\r\n            gapY={'auto'}>\r\n           <Link href='/' height={'45%'}>\r\n                <YemakIcon/>\r\n           </Link>\r\n@@ -16,9 +16,9 @@\n               bgColor={'#ffff'}>\r\n              <Input border={'none'}\r\n                     placeholder='Restoran yoki taom nomi'/>\r\n         </Box>\r\n-</Stack>\r\n+    </Stack>\r\n   )\r\n }\r\n \r\n export default LogoAndSearch\r\n"
+                },
+                {
+                    "date": 1733288429733,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,10 +3,10 @@\n \r\n const LogoAndSearch = () => {\r\n   return (\r\n     <Stack width={{sm : '100%', md : '100%', lg : '40%'}}\r\n-           height={'1000%'}\r\n-           gapY={'auto'}>\r\n+           height={'100%'}\r\n+           >\r\n           <Link href='/' height={'45%'}>\r\n                <YemakIcon/>\r\n           </Link>\r\n          <Box width={'100%'}\r\n"
+                },
+                {
+                    "date": 1733309227631,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,18 +3,19 @@\n \r\n const LogoAndSearch = () => {\r\n   return (\r\n     <Stack width={{sm : '100%', md : '100%', lg : '40%'}}\r\n-           height={'100%'}\r\n+           height='100%'\r\n            >\r\n           <Link href='/' height={'45%'}>\r\n                <YemakIcon/>\r\n           </Link>\r\n          <Box width={'100%'}\r\n               height={'auto'}\r\n               border={'none'}\r\n               borderRadius={'5px'}\r\n-              bgColor={'#ffff'}>\r\n+              bgColor={'#ffff'}\r\n+              opac>\r\n              <Input border={'none'}\r\n                     placeholder='Restoran yoki taom nomi'/>\r\n         </Box>\r\n     </Stack>\r\n"
+                },
+                {
+                    "date": 1733309233601,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n               height={'auto'}\r\n               border={'none'}\r\n               borderRadius={'5px'}\r\n               bgColor={'#ffff'}\r\n-              opac>\r\n+              opacity={'0.7'}>\r\n              <Input border={'none'}\r\n                     placeholder='Restoran yoki taom nomi'/>\r\n         </Box>\r\n     </Stack>\r\n"
+                },
+                {
+                    "date": 1733309239717,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n               height={'auto'}\r\n               border={'none'}\r\n               borderRadius={'5px'}\r\n               bgColor={'#ffff'}\r\n-              opacity={'0.7'}>\r\n+              opacity={'0.8'}>\r\n              <Input border={'none'}\r\n                     placeholder='Restoran yoki taom nomi'/>\r\n         </Box>\r\n     </Stack>\r\n"
+                },
+                {
+                    "date": 1733309251252,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,10 +12,9 @@\n          <Box width={'100%'}\r\n               height={'auto'}\r\n               border={'none'}\r\n               borderRadius={'5px'}\r\n-              bgColor={'#ffff'}\r\n-              opacity={'0.8'}>\r\n+              bgColor={'#ffff'}>\r\n              <Input border={'none'}\r\n                     placeholder='Restoran yoki taom nomi'/>\r\n         </Box>\r\n     </Stack>\r\n"
+                },
+                {
+                    "date": 1733309259554,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,8 +14,9 @@\n               border={'none'}\r\n               borderRadius={'5px'}\r\n               bgColor={'#ffff'}>\r\n              <Input border={'none'}\r\n+                    \r\n                     placeholder='Restoran yoki taom nomi'/>\r\n         </Box>\r\n     </Stack>\r\n   )\r\n"
+                },
+                {
+                    "date": 1733309306222,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n               border={'none'}\r\n               borderRadius={'5px'}\r\n               bgColor={'#ffff'}>\r\n              <Input border={'none'}\r\n-                    \r\n+                    color={'rgba(110, 110, 110, 0.8)'}\r\n                     placeholder='Restoran yoki taom nomi'/>\r\n         </Box>\r\n     </Stack>\r\n   )\r\n"
+                },
+                {
+                    "date": 1733309315149,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n               border={'none'}\r\n               borderRadius={'5px'}\r\n               bgColor={'#ffff'}>\r\n              <Input border={'none'}\r\n-                    color={'rgba(110, 110, 110, 0.8)'}\r\n+                    color={'rgba(110, 110, 110, 0.6)'}\r\n                     placeholder='Restoran yoki taom nomi'/>\r\n         </Box>\r\n     </Stack>\r\n   )\r\n"
+                },
+                {
+                    "date": 1733309320549,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n               border={'none'}\r\n               borderRadius={'5px'}\r\n               bgColor={'#ffff'}>\r\n              <Input border={'none'}\r\n-                    color={'rgba(110, 110, 110, 0.6)'}\r\n+                    color={'rgba(110, 110, 110, 0.5)'}\r\n                     placeholder='Restoran yoki taom nomi'/>\r\n         </Box>\r\n     </Stack>\r\n   )\r\n"
+                },
+                {
+                    "date": 1733309325834,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n               border={'none'}\r\n               borderRadius={'5px'}\r\n               bgColor={'#ffff'}>\r\n              <Input border={'none'}\r\n-                    color={'rgba(110, 110, 110, 0.5)'}\r\n+                    color={'rgba(110, 110, 110, 0.3)'}\r\n                     placeholder='Restoran yoki taom nomi'/>\r\n         </Box>\r\n     </Stack>\r\n   )\r\n"
+                }
+            ],
+            "date": 1733123727422,
+            "name": "Commit-0",
+            "content": "import { Box, Input, Link, Stack } from '@chakra-ui/react'\r\nimport YemakIcon from './YemakIcon'\r\n\r\nconst LogoAndSearch = () => {\r\n  return (\r\n    <Stack width={{sm : '100%', md : '100%', lg : '40%'}}\r\n    height={'40%'}\r\n    gapY={'auto'}>\r\n <Link href='/' height={'45%'}>\r\n   <YemakIcon/>\r\n </Link>\r\n <Box width={'100%'}\r\n       height={'auto'}\r\n       border={'none'}\r\n       borderRadius={'5px'}\r\n       bgColor={'#ffff'}>\r\n     <Input border={'none'}\r\n             placeholder='Restoran yoki taom nomi'/>\r\n\r\n </Box>\r\n</Stack>\r\n  )\r\n}\r\n\r\nexport default LogoAndSearch\r\n"
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "sourceFile": "tsconfig.json",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1733310050521,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1733310050521,
+            "name": "Commit-0",
+            "content": "{\n  \"compilerOptions\": {\n    \"target\": \"es2015\", \n    \"lib\": [\"es2015\", \"dom\"], // Promise va fetch uchun zarur kutubxonalar\n    \"module\": \"ESNext\",\n    \"moduleResolution\": \"Bundler\",\n    \"skipLibCheck\": true,\n    \"jsx\": \"react-jsx\",\n    \"strict\": true,\n    \"paths\": {\n      \"@/*\": [\"./src/*\"]\n    }\n  },\n  \"include\": [\"src\"],\n  \"exclude\": [\"node_modules\"]\n}\n\n"
+        }
+    ]
+}

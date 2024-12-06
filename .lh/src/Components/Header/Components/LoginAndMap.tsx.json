@@ -1,0 +1,170 @@
+{
+    "sourceFile": "src/Components/Header/Components/LoginAndMap.tsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 38,
+            "patches": [
+                {
+                    "date": 1733123639576,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1733123644833,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,10 +3,10 @@\n \r\n const LoginAndMap = () => {\r\n   return (\r\n     <Stack width={'20%'}\r\n-          height={'40%'}>\r\n-                        <Flex width={'100%'}\r\n+           height={'40%'}>\r\n+            <Flex width={'100%'}\r\n                                justify={'space-between'}\r\n                                height={'3rem'}>\r\n                             <Button height={'100%'}\r\n                                     bgColor={'#ffdd59'}\r\n"
+                },
+                {
+                    "date": 1733123654201,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,10 +5,10 @@\n   return (\r\n     <Stack width={'20%'}\r\n            height={'40%'}>\r\n             <Flex width={'100%'}\r\n-                               justify={'space-between'}\r\n-                               height={'3rem'}>\r\n+                  justify={'space-between'}\r\n+                  height={'3rem'}>\r\n                             <Button height={'100%'}\r\n                                     bgColor={'#ffdd59'}\r\n                                     color={'black'}\r\n                                     borderRadius={'8px'}>\r\n"
+                },
+                {
+                    "date": 1733123662006,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,10 +7,10 @@\n            height={'40%'}>\r\n             <Flex width={'100%'}\r\n                   justify={'space-between'}\r\n                   height={'3rem'}>\r\n-                            <Button height={'100%'}\r\n-                                    bgColor={'#ffdd59'}\r\n+                  <Button height={'100%'}\r\n+                          bgColor={'#ffdd59'}\r\n                                     color={'black'}\r\n                                     borderRadius={'8px'}>\r\n                                 <GrMap />\r\n                             </Button>\r\n"
+                },
+                {
+                    "date": 1733123669709,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,10 +9,10 @@\n                   justify={'space-between'}\r\n                   height={'3rem'}>\r\n                   <Button height={'100%'}\r\n                           bgColor={'#ffdd59'}\r\n-                                    color={'black'}\r\n-                                    borderRadius={'8px'}>\r\n+                          color={'black'}\r\n+                          borderRadius={'8px'}>\r\n                                 <GrMap />\r\n                             </Button>\r\n                             <Button height={'100%'}\r\n                                     width={'70%'}\r\n"
+                },
+                {
+                    "date": 1733123677135,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,10 +11,10 @@\n                   <Button height={'100%'}\r\n                           bgColor={'#ffdd59'}\r\n                           color={'black'}\r\n                           borderRadius={'8px'}>\r\n-                                <GrMap />\r\n-                            </Button>\r\n+                          <GrMap />\r\n+                  </Button>\r\n                             <Button height={'100%'}\r\n                                     width={'70%'}\r\n                                     bgColor={'#ffdd59'}\r\n                                     color={'black'}\r\n"
+                },
+                {
+                    "date": 1733123682365,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n                           color={'black'}\r\n                           borderRadius={'8px'}>\r\n                           <GrMap />\r\n                   </Button>\r\n-                            <Button height={'100%'}\r\n+                  <Button height={'100%'}\r\n                                     width={'70%'}\r\n                                     bgColor={'#ffdd59'}\r\n                                     color={'black'}\r\n                                     borderRadius={'8px'}>\r\n"
+                },
+                {
+                    "date": 1733123687655,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n                           borderRadius={'8px'}>\r\n                           <GrMap />\r\n                   </Button>\r\n                   <Button height={'100%'}\r\n-                                    width={'70%'}\r\n+                          width={'70%'}\r\n                                     bgColor={'#ffdd59'}\r\n                                     color={'black'}\r\n                                     borderRadius={'8px'}>\r\n                                 Kirish\r\n"
+                },
+                {
+                    "date": 1733123694222,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n                           <GrMap />\r\n                   </Button>\r\n                   <Button height={'100%'}\r\n                           width={'70%'}\r\n-                                    bgColor={'#ffdd59'}\r\n+                          bgColor={'#ffdd59'}\r\n                                     color={'black'}\r\n                                     borderRadius={'8px'}>\r\n                                 Kirish\r\n                             </Button>\r\n"
+                },
+                {
+                    "date": 1733123701322,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,10 +16,10 @@\n                   </Button>\r\n                   <Button height={'100%'}\r\n                           width={'70%'}\r\n                           bgColor={'#ffdd59'}\r\n-                                    color={'black'}\r\n-                                    borderRadius={'8px'}>\r\n+                          color={'black'}\r\n+                          borderRadius={'8px'}>\r\n                                 Kirish\r\n                             </Button>\r\n \r\n                         </Flex>\r\n"
+                },
+                {
+                    "date": 1733123708443,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,10 +18,10 @@\n                           width={'70%'}\r\n                           bgColor={'#ffdd59'}\r\n                           color={'black'}\r\n                           borderRadius={'8px'}>\r\n-                                Kirish\r\n-                            </Button>\r\n+                          Kirish\r\n+                  </Button>\r\n \r\n                         </Flex>\r\n                     </Stack>\r\n   )\r\n"
+                },
+                {
+                    "date": 1733123718720,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,11 +20,10 @@\n                           color={'black'}\r\n                           borderRadius={'8px'}>\r\n                           Kirish\r\n                   </Button>\r\n-\r\n                         </Flex>\r\n-                    </Stack>\r\n+      </Stack>\r\n   )\r\n }\r\n \r\n export default LoginAndMap\r\n"
+                },
+                {
+                    "date": 1733123799735,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n \r\n const LoginAndMap = () => {\r\n   return (\r\n     <Stack width={'20%'}\r\n-           height={'40%'}>\r\n+           height={'30%'}>\r\n             <Flex width={'100%'}\r\n                   justify={'space-between'}\r\n                   height={'3rem'}>\r\n                   <Button height={'100%'}\r\n"
+                },
+                {
+                    "date": 1733123806966,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,10 +2,10 @@\n import { GrMap } from 'react-icons/gr'\r\n \r\n const LoginAndMap = () => {\r\n   return (\r\n-    <Stack width={'20%'}\r\n-           height={'30%'}>\r\n+    <Stack width={'15%'}\r\n+           height={'40%'}>\r\n             <Flex width={'100%'}\r\n                   justify={'space-between'}\r\n                   height={'3rem'}>\r\n                   <Button height={'100%'}\r\n"
+                },
+                {
+                    "date": 1733288505134,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n \r\n const LoginAndMap = () => {\r\n   return (\r\n     <Stack width={'15%'}\r\n-           height={'40%'}>\r\n+           height={'100%'}>\r\n             <Flex width={'100%'}\r\n                   justify={'space-between'}\r\n                   height={'3rem'}>\r\n                   <Button height={'100%'}\r\n"
+                },
+                {
+                    "date": 1733288529081,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import { GrMap } from 'react-icons/gr'\r\n \r\n const LoginAndMap = () => {\r\n   return (\r\n-    <Stack width={'15%'}\r\n+    <Stack width={{sm : '100%', md : '100%', lg : '40%'}}\r\n            height={'100%'}>\r\n             <Flex width={'100%'}\r\n                   justify={'space-between'}\r\n                   height={'3rem'}>\r\n"
+                },
+                {
+                    "date": 1733288568735,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,11 +4,8 @@\n const LoginAndMap = () => {\r\n   return (\r\n     <Stack width={{sm : '100%', md : '100%', lg : '40%'}}\r\n            height={'100%'}>\r\n-            <Flex width={'100%'}\r\n-                  justify={'space-between'}\r\n-                  height={'3rem'}>\r\n                   <Button height={'100%'}\r\n                           bgColor={'#ffdd59'}\r\n                           color={'black'}\r\n                           borderRadius={'8px'}>\r\n"
+                },
+                {
+                    "date": 1733288587716,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n const LoginAndMap = () => {\r\n   return (\r\n     <Stack width={{sm : '100%', md : '100%', lg : '40%'}}\r\n            height={'100%'}>\r\n-                  <Button height={'100%'}\r\n+                  <Button height={'2rem'}\r\n                           bgColor={'#ffdd59'}\r\n                           color={'black'}\r\n                           borderRadius={'8px'}>\r\n                           <GrMap />\r\n@@ -17,9 +17,8 @@\n                           color={'black'}\r\n                           borderRadius={'8px'}>\r\n                           Kirish\r\n                   </Button>\r\n-                        </Flex>\r\n       </Stack>\r\n   )\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1733288594216,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n                           color={'black'}\r\n                           borderRadius={'8px'}>\r\n                           <GrMap />\r\n                   </Button>\r\n-                  <Button height={'100%'}\r\n+                  <Button height={'2rem'}\r\n                           width={'70%'}\r\n                           bgColor={'#ffdd59'}\r\n                           color={'black'}\r\n                           borderRadius={'8px'}>\r\n"
+                },
+                {
+                    "date": 1733288604375,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,10 @@\n \r\n const LoginAndMap = () => {\r\n   return (\r\n     <Stack width={{sm : '100%', md : '100%', lg : '40%'}}\r\n-           height={'100%'}>\r\n+           height={'100%'}\r\n+           direc>\r\n                   <Button height={'2rem'}\r\n                           bgColor={'#ffdd59'}\r\n                           color={'black'}\r\n                           borderRadius={'8px'}>\r\n"
+                },
+                {
+                    "date": 1733288615161,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n const LoginAndMap = () => {\r\n   return (\r\n     <Stack width={{sm : '100%', md : '100%', lg : '40%'}}\r\n            height={'100%'}\r\n-           direc>\r\n+           direction=''>\r\n                   <Button height={'2rem'}\r\n                           bgColor={'#ffdd59'}\r\n                           color={'black'}\r\n                           borderRadius={'8px'}>\r\n"
+                },
+                {
+                    "date": 1733288629507,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,10 +4,10 @@\n const LoginAndMap = () => {\r\n   return (\r\n     <Stack width={{sm : '100%', md : '100%', lg : '40%'}}\r\n            height={'100%'}\r\n-           direction=''>\r\n-                  <Button height={'2rem'}\r\n+           direction='row'>\r\n+                  <Button height='2rem'\r\n                           bgColor={'#ffdd59'}\r\n                           color={'black'}\r\n                           borderRadius={'8px'}>\r\n                           <GrMap />\r\n"
+                },
+                {
+                    "date": 1733288636101,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,8 +6,9 @@\n     <Stack width={{sm : '100%', md : '100%', lg : '40%'}}\r\n            height={'100%'}\r\n            direction='row'>\r\n                   <Button height='2rem'\r\n+                  width={}\r\n                           bgColor={'#ffdd59'}\r\n                           color={'black'}\r\n                           borderRadius={'8px'}>\r\n                           <GrMap />\r\n"
+                },
+                {
+                    "date": 1733288645549,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n     <Stack width={{sm : '100%', md : '100%', lg : '40%'}}\r\n            height={'100%'}\r\n            direction='row'>\r\n                   <Button height='2rem'\r\n-                  width={}\r\n+                          width='2rem'\r\n                           bgColor={'#ffdd59'}\r\n                           color={'black'}\r\n                           borderRadius={'8px'}>\r\n                           <GrMap />\r\n"
+                },
+                {
+                    "date": 1733288650927,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,10 +5,10 @@\n   return (\r\n     <Stack width={{sm : '100%', md : '100%', lg : '40%'}}\r\n            height={'100%'}\r\n            direction='row'>\r\n-                  <Button height='2rem'\r\n-                          width='2rem'\r\n+                  <Button height='3rem'\r\n+                          width='3rem'\r\n                           bgColor={'#ffdd59'}\r\n                           color={'black'}\r\n                           borderRadius={'8px'}>\r\n                           <GrMap />\r\n"
+                },
+                {
+                    "date": 1733288661627,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n                           color={'black'}\r\n                           borderRadius={'8px'}>\r\n                           <GrMap />\r\n                   </Button>\r\n-                  <Button height={'2rem'}\r\n+                  <Button height={'3rem'}\r\n                           width={'70%'}\r\n                           bgColor={'#ffdd59'}\r\n                           color={'black'}\r\n                           borderRadius={'8px'}>\r\n"
+                },
+                {
+                    "date": 1733288668931,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n                           borderRadius={'8px'}>\r\n                           <GrMap />\r\n                   </Button>\r\n                   <Button height={'3rem'}\r\n-                          width={'70%'}\r\n+                          width={'50%'}\r\n                           bgColor={'#ffdd59'}\r\n                           color={'black'}\r\n                           borderRadius={'8px'}>\r\n                           Kirish\r\n"
+                },
+                {
+                    "date": 1733288688781,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import { GrMap } from 'react-icons/gr'\r\n \r\n const LoginAndMap = () => {\r\n   return (\r\n-    <Stack width={{sm : '100%', md : '100%', lg : '40%'}}\r\n+    <Stack width={{sm : '100%', md : '100%', lg : '30%'}}\r\n            height={'100%'}\r\n            direction='row'>\r\n                   <Button height='3rem'\r\n                           width='3rem'\r\n"
+                },
+                {
+                    "date": 1733288701614,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n   return (\r\n     <Stack width={{sm : '100%', md : '100%', lg : '30%'}}\r\n            height={'100%'}\r\n            direction='row'>\r\n-                  <Button height='3rem'\r\n+                  <Button height='2.5rem'\r\n                           width='3rem'\r\n                           bgColor={'#ffdd59'}\r\n                           color={'black'}\r\n                           borderRadius={'8px'}>\r\n"
+                },
+                {
+                    "date": 1733288805678,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,16 +5,16 @@\n   return (\r\n     <Stack width={{sm : '100%', md : '100%', lg : '30%'}}\r\n            height={'100%'}\r\n            direction='row'>\r\n-                  <Button height='2.5rem'\r\n+                  <Button height='50%'\r\n                           width='3rem'\r\n                           bgColor={'#ffdd59'}\r\n                           color={'black'}\r\n                           borderRadius={'8px'}>\r\n                           <GrMap />\r\n                   </Button>\r\n-                  <Button height={'3rem'}\r\n+                  <Button height={'2.5rem'}\r\n                           width={'50%'}\r\n                           bgColor={'#ffdd59'}\r\n                           color={'black'}\r\n                           borderRadius={'8px'}>\r\n"
+                },
+                {
+                    "date": 1733288811203,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n                           color={'black'}\r\n                           borderRadius={'8px'}>\r\n                           <GrMap />\r\n                   </Button>\r\n-                  <Button height={'2.5rem'}\r\n+                  <Button height={'50%'}\r\n                           width={'50%'}\r\n                           bgColor={'#ffdd59'}\r\n                           color={'black'}\r\n                           borderRadius={'8px'}>\r\n"
+                },
+                {
+                    "date": 1733288816584,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,8 +4,9 @@\n const LoginAndMap = () => {\r\n   return (\r\n     <Stack width={{sm : '100%', md : '100%', lg : '30%'}}\r\n            height={'100%'}\r\n+           padd\r\n            direction='row'>\r\n                   <Button height='50%'\r\n                           width='3rem'\r\n                           bgColor={'#ffdd59'}\r\n"
+                },
+                {
+                    "date": 1733288822947,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n const LoginAndMap = () => {\r\n   return (\r\n     <Stack width={{sm : '100%', md : '100%', lg : '30%'}}\r\n            height={'100%'}\r\n-           padd\r\n+           padding='1rem'\r\n            direction='row'>\r\n                   <Button height='50%'\r\n                           width='3rem'\r\n                           bgColor={'#ffdd59'}\r\n"
+                },
+                {
+                    "date": 1733288833763,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,10 @@\n   return (\r\n     <Stack width={{sm : '100%', md : '100%', lg : '30%'}}\r\n            height={'100%'}\r\n            padding='1rem'\r\n-           direction='row'>\r\n+           direction='row'\r\n+           >\r\n                   <Button height='50%'\r\n                           width='3rem'\r\n                           bgColor={'#ffdd59'}\r\n                           color={'black'}\r\n"
+                },
+                {
+                    "date": 1733288838975,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n     <Stack width={{sm : '100%', md : '100%', lg : '30%'}}\r\n            height={'100%'}\r\n            padding='1rem'\r\n            direction='row'\r\n-           >\r\n+           alignItems={}>\r\n                   <Button height='50%'\r\n                           width='3rem'\r\n                           bgColor={'#ffdd59'}\r\n                           color={'black'}\r\n"
+                },
+                {
+                    "date": 1733288844625,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n     <Stack width={{sm : '100%', md : '100%', lg : '30%'}}\r\n            height={'100%'}\r\n            padding='1rem'\r\n            direction='row'\r\n-           alignItems={}>\r\n+           alignItems='start'>\r\n                   <Button height='50%'\r\n                           width='3rem'\r\n                           bgColor={'#ffdd59'}\r\n                           color={'black'}\r\n"
+                },
+                {
+                    "date": 1733309111355,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n \r\n const LoginAndMap = () => {\r\n   return (\r\n     <Stack width={{sm : '100%', md : '100%', lg : '30%'}}\r\n-           height={'100%'}\r\n+           height={'50%'}\r\n            padding='1rem'\r\n            direction='row'\r\n            alignItems='start'>\r\n                   <Button height='50%'\r\n"
+                },
+                {
+                    "date": 1733309120814,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n            height={'50%'}\r\n            padding='1rem'\r\n            direction='row'\r\n            alignItems='start'>\r\n-                  <Button height='50%'\r\n+                  <Button height='70%'\r\n                           width='3rem'\r\n                           bgColor={'#ffdd59'}\r\n                           color={'black'}\r\n                           borderRadius={'8px'}>\r\n"
+                },
+                {
+                    "date": 1733309127128,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n                           color={'black'}\r\n                           borderRadius={'8px'}>\r\n                           <GrMap />\r\n                   </Button>\r\n-                  <Button height={'50%'}\r\n+                  <Button height={'70%'}\r\n                           width={'50%'}\r\n                           bgColor={'#ffdd59'}\r\n                           color={'black'}\r\n                           borderRadius={'8px'}>\r\n"
+                }
+            ],
+            "date": 1733123639576,
+            "name": "Commit-0",
+            "content": "import { Button, Flex, Stack } from '@chakra-ui/react'\r\nimport { GrMap } from 'react-icons/gr'\r\n\r\nconst LoginAndMap = () => {\r\n  return (\r\n    <Stack width={'20%'}\r\n          height={'40%'}>\r\n                        <Flex width={'100%'}\r\n                               justify={'space-between'}\r\n                               height={'3rem'}>\r\n                            <Button height={'100%'}\r\n                                    bgColor={'#ffdd59'}\r\n                                    color={'black'}\r\n                                    borderRadius={'8px'}>\r\n                                <GrMap />\r\n                            </Button>\r\n                            <Button height={'100%'}\r\n                                    width={'70%'}\r\n                                    bgColor={'#ffdd59'}\r\n                                    color={'black'}\r\n                                    borderRadius={'8px'}>\r\n                                Kirish\r\n                            </Button>\r\n\r\n                        </Flex>\r\n                    </Stack>\r\n  )\r\n}\r\n\r\nexport default LoginAndMap\r\n"
+        }
+    ]
+}
